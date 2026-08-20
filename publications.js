@@ -1,12 +1,20 @@
 // Kevin Murphy publications. To add a paper, add an object at the top.
 // peer: true = peer-reviewed. Edit freely.
 window.PUBLICATIONS = [
-  {
+    {
     "year": 2026,
     "peer": false,
-    "title": "Agentic Forecasting using Sequential Bayesian Updating of Linguistic Beliefs",
+    "title": "Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models",
     "authors": "Kevin Murphy",
     "venue": "arxiv'26",
+    "url": "https://arxiv.org/abs/2608.09696"
+  },
+  {
+    "year": 2026,
+    "peer": true,
+    "title": "Agentic Forecasting using Sequential Bayesian Updating of Linguistic Beliefs",
+    "authors": "Kevin Murphy",
+    "venue": "ICML'26 forecasting workshop",
     "url": "https://arxiv.org/abs/2604.18576"
   },
   {
