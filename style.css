@@ -42,9 +42,11 @@ h1 { font-size: 2rem; margin: .1rem 0 .15rem; letter-spacing: -0.01em; }
 .links a { white-space: nowrap; }
 
 /* --- publications --- */
+.backlink { font-size: .9rem; margin: 0 0 1.6rem; }
 #pubs { margin-top: 2.6rem; }
+#pubs:first-child, section#pubs { margin-top: 0; }
 .pubs-head { border-bottom: 2px solid var(--rule); padding-bottom: .35rem; margin-bottom: 1.1rem; }
-#pubs h2 { font-size: 1.35rem; margin: 0; }
+#pubs h1, #pubs h2 { font-size: 1.5rem; margin: 0; }
 .legend { margin: .35rem 0 0; font-size: .85rem; color: var(--faint); }
 
 h3.year {
