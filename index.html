@@ -1,10 +1,75 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Kevin Patrick Murphy</title>
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    This is a clone of https://www.cs.ubc.ca/~murphyk/.
-  </body>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kevin P. Murphy</title>
+<meta name="description" content="Kevin Patrick Murphy — research scientist working on probabilistic machine learning and Bayesian decision-making.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <img class="photo" src="photo.jpg" alt="Kevin Murphy, Dubai 2023">
+  <div class="intro">
+    <h1>Kevin P.&nbsp;Murphy</h1>
+    <p class="affil">Research Scientist, Google&nbsp;DeepMind</p>
+    <p class="bio">I work on principled probabilistic and Bayesian approaches to AI, machine learning, and
+      decision-making under uncertainty &mdash; with applications to generative models, reinforcement
+      learning, and agents.</p>
+    <nav class="links" aria-label="Profiles">
+      <a href="mailto:murphyk@gmail.com">Email</a>
+      <a href="https://scholar.google.com/citations?user=MxxZkEcAAAAJ&amp;hl=en">Google&nbsp;Scholar</a>
+      <a href="https://probml.github.io/pml-book/">Books</a>
+      <a href="https://github.com/murphyk">GitHub</a>
+      <a href="https://x.com/sirbayes">Twitter/X</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="pubs" aria-labelledby="pubs-h">
+    <div class="pubs-head">
+      <h2 id="pubs-h">Publications</h2>
+      <p class="legend"><span class="mark peer">&#9733;</span>&nbsp;peer-reviewed&nbsp;&middot;
+        <span class="mark other">+</span>&nbsp;other. Full, always-current list on
+        <a href="https://scholar.google.com/citations?user=MxxZkEcAAAAJ&amp;hl=en">Google&nbsp;Scholar</a>.</p>
+    </div>
+    <div id="pub-list"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Static site &mdash; to add a paper, edit <code>publications.js</code>.</p>
+</footer>
+
+<script src="publications.js"></script>
+<script>
+(function () {
+  var pubs = (window.PUBLICATIONS || []).slice().sort(function (a, b) { return b.year - a.year; });
+  var root = document.getElementById('pub-list');
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  var me = /(Kevin\s+(Patrick\s+|P\.?\s+)?Murphy)/g;   // bold my own name in the author list
+  var curYear = null, list = null;
+  pubs.forEach(function (p) {
+    if (p.year !== curYear) {
+      curYear = p.year;
+      var h = document.createElement('h3'); h.className = 'year'; h.textContent = p.year; root.appendChild(h);
+      list = document.createElement('ul'); list.className = 'year-list'; root.appendChild(list);
+    }
+    var authors = esc(p.authors || '').replace(me, '<b>$1</b>');
+    var li = document.createElement('li'); li.className = 'pub ' + (p.peer ? 'peer' : 'other');
+    li.innerHTML =
+      '<span class="mark ' + (p.peer ? 'peer' : 'other') + '" title="' + (p.peer ? 'peer-reviewed' : 'other') + '">'
+        + (p.peer ? '&#9733;' : '+') + '</span>'
+      + '<span class="pub-body">'
+      +   '<a class="title" href="' + esc(p.url) + '">' + esc(p.title) + '</a>'
+      +   (authors ? '<span class="authors">' + authors + '</span>' : '')
+      +   (p.venue ? '<span class="venue">' + esc(p.venue) + '</span>' : '')
+      + '</span>';
+    list.appendChild(li);
+  });
+})();
+</script>
+</body>
 </html>
