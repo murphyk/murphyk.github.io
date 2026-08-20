@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Talks &mdash; Kevin P. Murphy</title>
+<meta name="description" content="Recent talks by Kevin Patrick Murphy.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p class="backlink"><a href="index.html">&larr; Kevin P.&nbsp;Murphy</a></p>
+
+<section id="pubs" aria-labelledby="talks-h">
+  <div class="pubs-head"><h1 id="talks-h">Talks</h1></div>
+  <ul id="talk-list" class="year-list"></ul>
+</section>
+
+<footer>
+  <p>To add a talk, edit <code>talks.js</code> in
+    <a href="https://github.com/murphyk/murphyk.github.io">the repo</a>.</p>
+</footer>
+
+<script src="talks.js"></script>
+<script>
+(function () {
+  var talks = window.TALKS || [];
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  var root = document.getElementById('talk-list');
+  talks.forEach(function (t) {
+    var li = document.createElement('li'); li.className = 'pub';
+    li.innerHTML =
+      '<span class="mark other">&bull;</span>'
+      + '<span class="pub-body">'
+      +   '<a class="title" href="' + esc(t.url) + '">' + esc(t.title) + '</a>'
+      +   (t.venue ? '<span class="venue">' + esc(t.venue) + '</span>' : '')
+      + '</span>';
+    root.appendChild(li);
+  });
+})();
+</script>
+</body>
+</html>
