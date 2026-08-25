@@ -53,6 +53,11 @@
       +   '<a class="title" href="' + esc(p.url) + '">' + esc(p.title) + '</a>'
       +   (authors ? '<span class="authors">' + authors + '</span>' : '')
       +   (p.venue ? '<span class="venue">' + esc(p.venue) + '</span>' : '')
+      +   (p.links && p.links.length
+            ? '<span class="links">' + p.links.map(function (l) {
+                return '<a class="artefact" href="' + esc(l.url) + '">' + esc(l.label) + '</a>';
+              }).join('') + '</span>'
+            : '')
       + '</span>';
     list.appendChild(li);
   });

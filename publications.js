@@ -1,5 +1,10 @@
 // Kevin Murphy publications. To add a paper, add an object at the top.
 // peer: true = peer-reviewed. Edit freely.
+//
+// Optional "links": an array of related artefacts (video, code, slides, blog, ...),
+// each { "label": "...", "url": "..." }. They render after the venue as small links.
+//   "links": [ { "label": "video", "url": "https://youtu.be/..." },
+//              { "label": "code",  "url": "https://github.com/..." } ]
 window.PUBLICATIONS = [
     {
     "year": 2026,
@@ -7,7 +12,10 @@ window.PUBLICATIONS = [
     "title": "Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models",
     "authors": "Kevin Murphy",
     "venue": "arxiv'26",
-    "url": "https://arxiv.org/abs/2608.09696"
+    "url": "https://arxiv.org/abs/2608.09696",
+    "links": [
+      { "label": "video", "url": "https://youtu.be/k5nzJ9Az5Tk" }
+    ]
   },
   {
     "year": 2026,
