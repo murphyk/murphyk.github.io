@@ -703,7 +703,7 @@ window.PUBLICATIONS = [
     "title": "Im2Calories: towards an automated mobile vision food diary",
     "authors": "Austin Myers, Nick Johnston, Vivek Rathod, Anoop Korattikara, Alex Gorban, Nathan Silberman, Sergio Guadarrama, George Papandreou, Jonathan Huang, Kevin Murphy.",
     "venue": "ICCV'15",
-    "url": "Papers/im2calories_iccv15.pdf"
+    "url": "https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Meyers_Im2Calories_Towards_an_ICCV_2015_paper.html"
   },
   {
     "year": 2015,
@@ -783,7 +783,7 @@ window.PUBLICATIONS = [
     "title": "Probabilistic models for collective entity resoluion between knowledge graphs",
     "authors": "Jay Pujara, Kevin Murphy, Luna Dong, Curtis Janssen",
     "venue": "Bay Area Machine Learning workshop 2014",
-    "url": "Papers/pujara_baylearn14_cr.pdf"
+    "url": "https://www.isi.edu/results/publications/18552/probabilistic-models-for-collective-entity-resolution-between-knowledge-graphs/"
   },
   {
     "year": 2014,
@@ -799,7 +799,7 @@ window.PUBLICATIONS = [
     "title": "Large-Scale Object Classification using Label Relation Graphs",
     "authors": "Jia Deng, Nan Ding, Yangqing Jia, Andrea Frome, Kevin Murphy, Samy Bengio, Yuan Li, Hartmut Neven, Hartwig Adam",
     "venue": "ECCV 2014 ( Best paper award )",
-    "url": "Papers/eccv2014.pdf"
+    "url": "https://doi.org/10.1007/978-3-319-10590-1_4"
   },
   {
     "year": 2014,
@@ -807,7 +807,7 @@ window.PUBLICATIONS = [
     "title": "Cooking with semantics",
     "authors": "Jon Malmaud, Earl Wagner, Nancy Chang, Kevin Murphy.",
     "venue": "ACL'14 Semantic Parsing Workshop",
-    "url": "Papers/acl2014.pdf"
+    "url": "https://aclanthology.org/W14-2407/"
   },
   {
     "year": 2014,
@@ -815,7 +815,7 @@ window.PUBLICATIONS = [
     "title": "Knowledge Vault: A Web-Scale Approach to Probabilistic Knowledge Fusion",
     "authors": "Xin Luna Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Ni Lao, Kevin Murphy, Thomas Strohmann, Shaohua Sun, Wei Zhang",
     "venue": "KDD'14.",
-    "url": "Papers/kv-kdd14.pdf"
+    "url": "https://research.google/pubs/knowledge-vault-a-web-scale-approach-to-probabilistic-knowledge-fusion/"
   },
   {
     "year": 2014,
@@ -823,7 +823,7 @@ window.PUBLICATIONS = [
     "title": "From Data Fusion to Knowledge Fusion",
     "authors": "Xin Luna Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Kevin Murphy, Shaohua Sun, Wei Zhang",
     "venue": "VLDB'14.",
-    "url": "Papers/vldb14-dong-camera.pdf"
+    "url": "https://doi.org/10.14778/2732951.2732962"
   },
   {
     "year": 2014,
@@ -831,7 +831,7 @@ window.PUBLICATIONS = [
     "title": "Knowledge Base Completion via Search-Based Question Answering",
     "authors": "Robert West, Evgeniy Gabrilovich, Kevin Murphy, Shaohua Sun, Rahul Gupta, Dekang Lin",
     "venue": "WWW'14.",
-    "url": "Papers/www14.pdf"
+    "url": "https://doi.org/10.1145/2566486.2568032"
   },
   {
     "year": 2013,
@@ -839,7 +839,7 @@ window.PUBLICATIONS = [
     "title": "Extracting Entities and Relations from Web Tables Using a Non-parametric Generative Model",
     "authors": "Jon Malmaud, Kevin Murphy",
     "venue": "Bay Area Machine Learning workshop (Extended abstract)",
-    "url": "Papers/baylearn.pdf"
+    "url": "https://www.semanticscholar.org/paper/aafee22bd647780463b72bb420b5ead43d386f68"
   },
   {
     "year": 2012,
@@ -847,7 +847,7 @@ window.PUBLICATIONS = [
     "title": "Fast Bayesian Inference for Non-Conjugate Gaussian Process Regression",
     "authors": "Emtiyaz Khan, Shakir Mohammad, Kevin Murphy",
     "venue": "NIPS 2012",
-    "url": "http://www.cs.ubc.ca/~emtiyaz/papers/paper-NIPS2012.pdf"
+    "url": "https://proceedings.neurips.cc/paper/2012/hash/e94f63f579e05cb49c05c2d050ead9c0-Abstract.html"
   },
   {
     "year": 2012,
@@ -855,7 +855,7 @@ window.PUBLICATIONS = [
     "title": "Machine learning: a probabilistic perspective",
     "authors": "Kevin Murphy",
     "venue": "MIT Press 2012",
-    "url": "http://www.cs.ubc.ca/~murphyk/MLbook/index.html"
+    "url": "https://probml.github.io/pml-book/book0.html"
   },
   {
     "year": 2012,
@@ -863,7 +863,7 @@ window.PUBLICATIONS = [
     "title": "Learning to Track and Identify Players from Broadcast Sports Videos",
     "authors": "Wei-Lwun Lu, Joanne Ting, Jim Little, Kevin Murphy",
     "venue": "IEEE PAMI",
-    "url": "Papers/weilwun-pami12.pdf"
+    "url": "https://doi.org/10.1109/TPAMI.2012.242"
   },
   {
     "year": 2012,
@@ -879,7 +879,7 @@ window.PUBLICATIONS = [
     "title": "A Stick-Breaking Likelihood for Categorical Data Analysis with Latent Gaussian Models",
     "authors": "M. E. Khan, S. Mohamed, B. Marlin, and K. Murphy",
     "venue": "AI/Stats 2012",
-    "url": "http://www.cs.ubc.ca/~emtiyaz/papers/paper-AISTATS2012.pdf"
+    "url": "https://proceedings.mlr.press/v22/khan12.html"
   },
   {
     "year": 2012,
@@ -887,7 +887,7 @@ window.PUBLICATIONS = [
     "title": "Efficient Bayesian Inference for Multivariate Probit Models with Sparse Inverse Correlation Matrices",
     "authors": "A. Talhouk and A. Doucet and K. Murphy",
     "venue": "J. Computational and Graphical Statistics, 21(3), 2012 ( official link ).",
-    "url": "Papers/aline11.pdf"
+    "url": "https://doi.org/10.1080/10618600.2012.679239"
   },
   {
     "year": 2011,
@@ -895,7 +895,7 @@ window.PUBLICATIONS = [
     "title": "Piecewise Bounds for Estimating Bernoulli-Logistic Latent Gaussian Models",
     "authors": "B. Marlin and E. Khan and K. Murphy",
     "venue": "ICML 2011",
-    "url": "Papers/sparseLGM-icml11.pdf"
+    "url": "https://icml.cc/2011/papers/376_icmlpaper.pdf"
   },
   {
     "year": 2011,
@@ -903,7 +903,7 @@ window.PUBLICATIONS = [
     "title": "Identifying Players in Broadcast Sports Videos using Conditional Random Fields",
     "authors": "Wei-Lwun Lu, Jo-Anne Ting, Kevin P. Murphy, and James J. Little",
     "venue": "CVPR 2011.",
-    "url": "Papers/cvpr2011-camera.pdf"
+    "url": "https://doi.org/10.1109/CVPR.2011.5995562"
   },
   {
     "year": 2011,
@@ -911,7 +911,7 @@ window.PUBLICATIONS = [
     "title": "Multiscale Conditional Random Fields for Semi-supervised Labeling and Classification",
     "authors": "David Duvenaud, Ben Marlin, Kevin Murphy.",
     "venue": "Canadian Conf. on Computer and Robot Vision (CRV) 2011",
-    "url": "papers/multiscale_crv.pdf"
+    "url": "https://doi.org/10.1109/CRV.2011.56"
   },
   {
     "year": 2010,
@@ -919,7 +919,7 @@ window.PUBLICATIONS = [
     "title": "Variational bounds for mixed-data factor analysis",
     "authors": "M. E. Khan, B. Marlin, G. Bouchard, K. Murphy",
     "venue": "NIPS 2010.",
-    "url": "Papers/nips2010.pdf"
+    "url": "https://proceedings.neurips.cc/paper/2010/hash/2a084e55c87b1ebcdaad1f62fdbbac8e-Abstract.html"
   },
   {
     "year": 2010,
@@ -951,7 +951,7 @@ window.PUBLICATIONS = [
     "title": "Time-Bounded Sequential Parameter Optimization",
     "authors": "Frank Hutter, Holger Hoos, Kevin Murphy, Kevin Leyton-Brown",
     "venue": "Learning and Intelligent Optimization - LION4 2010.",
-    "url": "Papers/hutter-lion10.pdf"
+    "url": "https://doi.org/10.1007/978-3-642-13800-3_30"
   },
   {
     "year": 2010,
@@ -975,7 +975,7 @@ window.PUBLICATIONS = [
     "title": "Using the forest to see the trees: object recognition in context",
     "authors": "A. Torralba, K. Murphy, W. Freeman",
     "venue": "Communications of the ACM, Research Highlights, 53(3): 107-114, 2010.",
-    "url": "Papers/cacm09.pdf"
+    "url": "https://doi.org/10.1145/1666420.1666446"
   },
   {
     "year": 2009,
@@ -983,7 +983,7 @@ window.PUBLICATIONS = [
     "title": "Accelerating Bayesian Structural Inference for Non-Decomposable Gaussian Graphical Models",
     "authors": "Baback Moghaddam, Ben Marlin, Emtiyaz Khan, Kevin Murphy.",
     "venue": "NIPS 2009",
-    "url": "Papers/nips09-final.pdf"
+    "url": "https://proceedings.neurips.cc/paper/2009/hash/a1519de5b5d44b31a01de013b9b51a80-Abstract.html"
   },
   {
     "year": 2009,
@@ -991,7 +991,7 @@ window.PUBLICATIONS = [
     "title": "Causal learning without DAGs",
     "authors": "David Duvenaud, Daniel Eaton, Kevin Murphy, Mark Schmidt.",
     "venue": "JMLR W&CP 2009.",
-    "url": "Papers/Causal_Learning_Without_DAGs_SR_ref.pdf"
+    "url": "https://proceedings.mlr.press/v6/duvenaud10a.html"
   },
   {
     "year": 2009,
@@ -999,7 +999,7 @@ window.PUBLICATIONS = [
     "title": "Group Sparse Priors for Covariance Estimation",
     "authors": "Ben Marlin, Mark Schmidt, and Kevin Murphy",
     "venue": "UAI 2009",
-    "url": "Papers/marlinUAI09.pdf"
+    "url": "https://arxiv.org/abs/1205.2626"
   },
   {
     "year": 2009,
@@ -1007,7 +1007,7 @@ window.PUBLICATIONS = [
     "title": "Modeling Discrete Interventional Data using Directed Cyclic Graphical Models",
     "authors": "Mark Schmidt, Kevin Murphy",
     "venue": "UAI 2009",
-    "url": "Papers/schmidtUAI09.pdf"
+    "url": "https://arxiv.org/abs/1205.2617"
   },
   {
     "year": 2009,
@@ -1015,7 +1015,7 @@ window.PUBLICATIONS = [
     "title": "Sparse Gaussian Graphical Models with Unknown Block Structure",
     "authors": "Ben Marlin and Kevin Murphy",
     "venue": "ICML 2009",
-    "url": "Papers/MarlinMurphyICML09.pdf"
+    "url": "https://icml.cc/2009/papers/284.pdf"
   },
   {
     "year": 2009,
@@ -1031,7 +1031,7 @@ window.PUBLICATIONS = [
     "title": "An Experimental Investigation of Model-Based Parameter Optimisation: SPO and Beyond",
     "authors": "Frank Hutter, Kevin Leyton-Brown, Kevin Murphy.",
     "venue": "Gecco 2009.",
-    "url": "Papers/gecco09.pdf"
+    "url": "https://ml.informatik.uni-freiburg.de/wp-content/uploads/papers/09-GECCO-SPO%2B.pdf"
   },
   {
     "year": 2009,
@@ -1039,7 +1039,7 @@ window.PUBLICATIONS = [
     "title": "A Hybrid Conditional Random Field for estimating the underlying ground surface from airborne LiDAR data",
     "authors": "Wei-Lwun Lu, Kevin Murphy, James J. Little, Alla Sheffer, Hongbo Fu.",
     "venue": "IEEE Trans. on Geoscience and Remote Sensing, 2009, 47(8):2913--2922.",
-    "url": "Papers/tgars2009.pdf"
+    "url": "https://doi.org/10.1109/TGRS.2009.2017738"
   },
   {
     "year": 2009,
@@ -1047,7 +1047,7 @@ window.PUBLICATIONS = [
     "title": "Optimizing Costly Functions with Simple Constraints: A Limited-Memory Projected Quasi-Newton Algorithm",
     "authors": "Mark Schmidt, Ewout van den Berg, Michael Friedlander, Kevin Murphy",
     "venue": "AI/Stats 2009 ( Best paper award )",
-    "url": "Papers/aistats09.pdf"
+    "url": "https://proceedings.mlr.press/v5/schmidt09a.html"
   },
   {
     "year": 2008,
@@ -1055,7 +1055,7 @@ window.PUBLICATIONS = [
     "title": "Structure Learning in Random Fields for Heart Motion Abnormality Detection",
     "authors": "Mark Schmidt, Kevin Murphy, Glenn Fung, Romer Rosales.",
     "venue": "CVPR 2008. Appendix . Software .",
-    "url": "Papers/cvpr08.pdf"
+    "url": "https://doi.org/10.1109/CVPR.2008.4587367"
   },
   {
     "year": 2008,
@@ -1063,7 +1063,7 @@ window.PUBLICATIONS = [
     "title": "LabelMe: a database and web-based tool for image annotation",
     "authors": "Bryan Russell, Antonio Torralba, Kevin Murphy and William Freeman",
     "venue": "Intl. J. Computer Vision (special issue on vision and learning), 77(1-3): 157--173, 2008. Software .",
-    "url": "Papers/labelmeIJCV08.pdf"
+    "url": "https://doi.org/10.1007/s11263-007-0090-8"
   },
   {
     "year": 2007,
@@ -1071,7 +1071,7 @@ window.PUBLICATIONS = [
     "title": "Software for graphical models: a review",
     "authors": ".",
     "venue": "Kevin Murphy.",
-    "url": "http://www.cs.ubc.ca/~murphyk/Software/bnsw.pdf"
+    "url": "https://bayesian.org/wp-content/uploads/2016/09/0712.pdf"
   },
   {
     "year": 2007,
@@ -1079,7 +1079,7 @@ window.PUBLICATIONS = [
     "title": "Bayesian structure learning using dynamic programming and MCMC",
     "authors": "Daniel Eaton and Kevin Murphy",
     "venue": "UAI 2007. Software",
-    "url": "Papers/eaton-uai07.pdf"
+    "url": "https://arxiv.org/abs/1206.5247"
   },
   {
     "year": 2007,
@@ -1087,7 +1087,7 @@ window.PUBLICATIONS = [
     "title": "Modeling changing dependency structure in multivariate time series",
     "authors": "Xiang Xuan and Kevin Murphy.",
     "venue": "Intl. conf on machine learning (ICML), 2007.",
-    "url": "Papers/xuanICML07.pdf"
+    "url": "https://doi.org/10.1145/1273496.1273629"
   },
   {
     "year": 2007,
@@ -1095,7 +1095,7 @@ window.PUBLICATIONS = [
     "title": "Learning Graphical Model Structure using L1-Regularization Paths",
     "authors": "M Schmidt, A Niculescu-Mizil, K Murphy.",
     "venue": "AAAI'07. Software",
-    "url": "Papers/aaai07.pdf"
+    "url": "https://cdn.aaai.org/AAAI/2007/AAAI07-202.pdf"
   },
   {
     "year": 2007,
@@ -1103,7 +1103,7 @@ window.PUBLICATIONS = [
     "title": "Efficient parameter estimation for RNA secondary structure prediction",
     "authors": "M Andronescu, A Condon, H Hoos, D Mathews, K Murphy.",
     "venue": "Bioinformatics 2007",
-    "url": "Papers/mirela-ismb07.pdf"
+    "url": "https://doi.org/10.1093/bioinformatics/btm223"
   },
   {
     "year": 2007,
@@ -1111,7 +1111,7 @@ window.PUBLICATIONS = [
     "title": "Modeling recurrent DNA copy number alterations in array CGH data",
     "authors": "S Shah, W Lam, R Ng, K Murphy.",
     "venue": "Bioinformatics 2007. Software .",
-    "url": "Papers/sohrab-bioinfo07.pdf"
+    "url": "https://doi.org/10.1093/bioinformatics/btm221"
   },
   {
     "year": 2007,
@@ -1119,7 +1119,7 @@ window.PUBLICATIONS = [
     "title": "Exact Bayesian structure learning from uncertain interventions",
     "authors": "Daniel Eaton and Kevin Murphy.",
     "venue": "AI & Statistics, 2007. Software",
-    "url": "Papers/aistats07.pdf"
+    "url": "https://proceedings.mlr.press/v2/eaton07a.html"
   },
   {
     "year": 2007,
@@ -1127,7 +1127,7 @@ window.PUBLICATIONS = [
     "title": "Sharing visual features for multiclass and multiview object detection",
     "authors": "Antonio Torralba, Kevin Murphy and William Freeman",
     "venue": "IEEE PAMI, 29(5), May 2007",
-    "url": "Papers/jointBoostPami07.pdf"
+    "url": "https://doi.org/10.1109/TPAMI.2007.1055"
   },
   {
     "year": 2007,
@@ -1135,7 +1135,7 @@ window.PUBLICATIONS = [
     "title": "Figure-ground segmentation using a hierarchical conditional random field",
     "authors": "Jordan Reynolds and Kevin Murphy.",
     "venue": "Fourth Canadian Conference on Computer and Robot Vision (CRV 2007)",
-    "url": "Papers/reynoldsCRV07.pdf"
+    "url": "https://doi.org/10.1109/CRV.2007.32"
   },
   {
     "year": 2007,
@@ -1143,7 +1143,7 @@ window.PUBLICATIONS = [
     "title": "A non-myopic approach to visual search",
     "authors": "Julia Vogel and Kevin Murphy.",
     "venue": "Fourth Canadian Conference on Computer and Robot Vision (CRV 2007)",
-    "url": "Papers/vogelCRV07.pdf"
+    "url": "https://doi.org/10.1109/CRV.2007.5"
   },
   {
     "year": 2007,
@@ -1151,7 +1151,7 @@ window.PUBLICATIONS = [
     "title": "Conjugate Bayesian analysis of the univariate Gaussian: a tutorial",
     "authors": "Kevin Murphy, September 2007.",
     "venue": "",
-    "url": "Papers/bayesGauss.pdf"
+    "url": "https://cbmm.mit.edu/sites/default/files/learning-hub/Murphy07_gaussian.pdf"
   },
   {
     "year": 2006,
@@ -1167,7 +1167,7 @@ window.PUBLICATIONS = [
     "title": "Accelerated Training of Conditional Random Fields with Stochastic Meta-Descent",
     "authors": "S Vishwanathan, N. Schraudolph, M. Schmidt, K. Murphy",
     "venue": "ICML'06 (Intl Conf on Machine Learning) Software .",
-    "url": "Papers/ICML06.pdf"
+    "url": "https://doi.org/10.1145/1143844.1143966"
   },
   {
     "year": 2005,
@@ -1175,7 +1175,7 @@ window.PUBLICATIONS = [
     "title": "Object detection and localization using local and global features",
     "authors": "Kevin Murphy, Antonio Torralba, Daniel Eaton, William Freeman",
     "venue": "Appears in Towards Category-Level Object Recognition",
-    "url": "Papers/sicilyChapterGist.pdf"
+    "url": "https://doi.org/10.1007/11957959_20"
   },
   {
     "year": 2005,
@@ -1183,7 +1183,7 @@ window.PUBLICATIONS = [
     "title": "Shared features for multiclass object detection",
     "authors": "Antonio Torralba, Kevin Murphy, William Freeman",
     "venue": "Appears in Towards Category-Level Object Recognition",
-    "url": "Papers/sicilyChapterSharing.pdf"
+    "url": "https://doi.org/10.1007/11957959_18"
   },
   {
     "year": 2004,
@@ -1191,7 +1191,7 @@ window.PUBLICATIONS = [
     "title": "Contextual Models for Object Detection using Boosted Random Fields",
     "authors": "Antonio Torralba, Kevin Murphy and William Freeman",
     "venue": "NIPS'04.",
-    "url": "Papers/BRF-nips04-camera.pdf"
+    "url": "https://proceedings.neurips.cc/paper/2004/hash/908a6f6a6c131a850ecb0e3f11b08189-Abstract.html"
   },
   {
     "year": 2004,
@@ -1199,7 +1199,7 @@ window.PUBLICATIONS = [
     "title": "Sharing features: efficient boosting procedures for multiclass object detection",
     "authors": "Antonio Torralba, Kevin Murphy and William Freeman",
     "venue": "CVPR'04 (Computer Vision and Pattern Recognition).",
-    "url": "Papers/jointBoostCVPR04_camera.pdf"
+    "url": "https://doi.org/10.1109/CVPR.2004.1315241"
   },
   {
     "year": 2004,
@@ -1207,7 +1207,7 @@ window.PUBLICATIONS = [
     "title": "Representing hierarchical POMDPs as DBNs for multi-scale robot localization",
     "authors": "Georgios Theocharous, Kevin Murphy, Leslie Kaelbling",
     "venue": "ICRA'04 (Intl. Conf. on Robotics and Automation)",
-    "url": "Papers/icra04.pdf"
+    "url": "https://doi.org/10.1109/ROBOT.2004.1307288"
   },
   {
     "year": 2003,
@@ -1215,7 +1215,7 @@ window.PUBLICATIONS = [
     "title": "\"Using the Forest to See the Trees:A Graphical Model Relating Features, Objects and Scenes\"",
     "authors": "Kevin Murphy, Antonio Torralba, William Freeman",
     "venue": "NIPS'03 (Neural Info. Processing Systems)",
-    "url": "Papers/nips2003.pdf"
+    "url": "https://proceedings.neurips.cc/paper/2003/hash/99f59c0842e83c808dd1813b48a37c6a-Abstract.html"
   },
   {
     "year": 2003,
@@ -1223,7 +1223,7 @@ window.PUBLICATIONS = [
     "title": "Context-based vision system for place and object recognition",
     "authors": "Antonio Torralba, Kevin Murphy, William Freeman, Mark Rubin",
     "venue": "ICCV'03 (Intl. Conf. on Computer Vision)",
-    "url": "Papers/iccv03.pdf"
+    "url": "https://doi.org/10.1109/ICCV.2003.1238354"
   },
   {
     "year": 2002,
@@ -1231,7 +1231,7 @@ window.PUBLICATIONS = [
     "title": "Dynamic Bayesian Networks for Audio-Visual Speech Recognition",
     "authors": "A. Nefian, L. Liang, X. Pi, X. Liu and K. Murphy",
     "venue": "EURASIP, Journal of Applied Signal Processing, 11:1-15, 2002",
-    "url": "Papers/avsr_journal.pdf"
+    "url": "https://doi.org/10.1155/S1110865702206083"
   },
   {
     "year": 2002,
@@ -1239,7 +1239,7 @@ window.PUBLICATIONS = [
     "title": "A Coupled HMM for Audio-Visual Speech Recognition",
     "authors": "A. Nefian, L. Liang, X. Pi, L. Xiaoxiang, C. Mao and K. Murphy",
     "venue": "ICASSP '02 (IEEE Int'l Conf on Acoustics, Speech and Signal Proc.) , 2:2013--2016.",
-    "url": "Papers/icassp02.pdf"
+    "url": "https://doi.org/10.1109/ICASSP.2002.5745027"
   },
   {
     "year": 2002,
@@ -1279,7 +1279,7 @@ window.PUBLICATIONS = [
     "title": "Linear Time Inference in Hierarchical HMMs",
     "authors": "Kevin Murphy and Mark Paskin.",
     "venue": "NIPS '01 (Neural Info. Proc. Systems) .",
-    "url": "Papers/hhmm_nips01.pdf"
+    "url": "https://proceedings.neurips.cc/paper/2001/hash/aebf7782a3d445f43cf30ee2c0d84dee-Abstract.html"
   },
   {
     "year": 2001,
@@ -1287,7 +1287,7 @@ window.PUBLICATIONS = [
     "title": "The Factored Frontier Algorithm for Approximate Inference in DBNs",
     "authors": "Kevin Murphy and Yair Weiss.",
     "venue": "UAI '01 (Uncertainty in AI).",
-    "url": "Papers/ff_uai01.pdf"
+    "url": "https://arxiv.org/abs/1301.2296"
   },
   {
     "year": 2001,
@@ -1295,7 +1295,7 @@ window.PUBLICATIONS = [
     "title": "The Bayes Net Toolbox for Matlab",
     "authors": "Kevin Murphy.",
     "venue": "Computing Science and Statistics , vol 33, 2001.",
-    "url": "Papers/bnt.pdf"
+    "url": "https://scispace.com/papers/the-bayes-net-toolbox-for-matlab-3839yjxjt1"
   },
   {
     "year": 2001,
@@ -1303,7 +1303,7 @@ window.PUBLICATIONS = [
     "title": "Rao-Blackwellised Particle Filtering for Dynamic Bayesian Networks",
     "authors": "Kevin Murphy and Stuart Russell.",
     "venue": "Appears in Sequential Monte Carlo Methods in Practice",
-    "url": "Papers/rbpfchapter.pdf"
+    "url": "https://doi.org/10.1007/978-1-4757-3437-9_24"
   },
   {
     "year": 2001,
@@ -1311,7 +1311,7 @@ window.PUBLICATIONS = [
     "title": "An introduction to graphical models",
     "authors": "Kevin Murphy. May 2001.",
     "venue": "",
-    "url": "Papers/intro_gm.pdf"
+    "url": "https://www.semanticscholar.org/paper/5a3ed2f82037654f6df659f8bcd23cb09305d453"
   },
   {
     "year": 2001,
@@ -1319,7 +1319,7 @@ window.PUBLICATIONS = [
     "title": "Active learning of causal Bayes net structure",
     "authors": "Kevin Murphy. March 2001.",
     "venue": "",
-    "url": "Papers/alearn.pdf"
+    "url": "https://www.semanticscholar.org/paper/13c2ad5c1dc96f651b2bc197089f62b0691fa622"
   },
   {
     "year": 2000,
@@ -1327,7 +1327,7 @@ window.PUBLICATIONS = [
     "title": "Rao-Blackwellised Particle Filtering for Dynamic Bayesian Networks",
     "authors": "Arnaud Doucet, Nando de Freitas, Kevin Murphy and Stuart Russell.",
     "venue": "UAI '00 (Uncertainty in AI).",
-    "url": "Papers/rbpf_uai00.pdf"
+    "url": "https://arxiv.org/abs/1301.3853"
   },
   {
     "year": 2000,
@@ -1335,7 +1335,7 @@ window.PUBLICATIONS = [
     "title": "A Survey of POMDP Solution Techniques",
     "authors": "Kevin Murphy. September 2000.",
     "venue": "",
-    "url": "Papers/pomdp.pdf"
+    "url": "https://www.semanticscholar.org/paper/5e72b7d7940125019a2aa985cfdff2761b7fe820"
   },
   {
     "year": 2000,
@@ -1351,7 +1351,7 @@ window.PUBLICATIONS = [
     "title": "MCMC for Conditionally Linear Gaussian State-Space Models",
     "authors": "Kevin Murphy. 2000.",
     "venue": "",
-    "url": "Papers/carter.ps.gz"
+    "url": "https://www.researchgate.net/publication/2239058_MCMC_for_Conditionally_Linear_Gaussian_State-Space_Models"
   },
   {
     "year": 1999,
@@ -1359,7 +1359,7 @@ window.PUBLICATIONS = [
     "title": "Bayesian Map Learning in Dynamic Environments",
     "authors": "Kevin Murphy.",
     "venue": "NIPS '99 (Neural Info. Proc. Systems) .",
-    "url": "Papers/map_nips99.pdf"
+    "url": "https://proceedings.neurips.cc/paper/1999/hash/66be31e4c40d676991f2405aaecc6934-Abstract.html"
   },
   {
     "year": 1999,
@@ -1367,7 +1367,7 @@ window.PUBLICATIONS = [
     "title": "Loopy-belief Propagation for Approximate Inference: An Empirical Study",
     "authors": "Kevin Murphy, Yair Weiss, and Michael Jordan.",
     "venue": "UAI '99 (Uncertainty in AI).",
-    "url": "Papers/loopy_uai99.pdf"
+    "url": "https://arxiv.org/abs/1301.6725"
   },
   {
     "year": 1999,
@@ -1375,7 +1375,7 @@ window.PUBLICATIONS = [
     "title": "A Variational Approximation for Bayesian Networks with Discrete and Continuous Latent Variables",
     "authors": "Kevin Murphy.",
     "venue": "UAI '99 (Uncertainty in AI).",
-    "url": "Papers/hybrid_uai99.pdf"
+    "url": "https://arxiv.org/abs/1301.6724"
   },
   {
     "year": 1999,
@@ -1383,7 +1383,7 @@ window.PUBLICATIONS = [
     "title": "A Dynamic Bayesian Network Approach to Figure Tracking Using Learned Dynamic Models",
     "authors": "Vladimir Pavlovic, James Rehg, Tat-Jen Cham, and Kevin Murphy.",
     "venue": "ICCV '99 (Int'l Conf. on Computer Vision)",
-    "url": "Papers/iccv99.pdf"
+    "url": "https://doi.org/10.1109/ICCV.1999.791203"
   },
   {
     "year": 1999,
@@ -1391,6 +1391,6 @@ window.PUBLICATIONS = [
     "title": "Vision-Based Speaker Detection Using Bayesian Networks",
     "authors": "James Rehg, Kevin Murphy, and Paul Fieguth.",
     "venue": "CVPR '99 (Computer Vision and Pattern Recognition).",
-    "url": "Papers/cvpr99.pdf"
+    "url": "https://doi.org/10.1109/CVPR.1999.784617"
   }
 ];
