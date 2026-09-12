@@ -839,7 +839,7 @@ window.PUBLICATIONS = [
     "title": "Extracting Entities and Relations from Web Tables Using a Non-parametric Generative Model",
     "authors": "Jon Malmaud, Kevin Murphy",
     "venue": "Bay Area Machine Learning workshop (Extended abstract)",
-    "url": "https://www.semanticscholar.org/paper/aafee22bd647780463b72bb420b5ead43d386f68"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/baylearn.pdf"
   },
   {
     "year": 2012,
@@ -1295,7 +1295,7 @@ window.PUBLICATIONS = [
     "title": "The Bayes Net Toolbox for Matlab",
     "authors": "Kevin Murphy.",
     "venue": "Computing Science and Statistics, vol. 33, 2001.",
-    "url": "https://scispace.com/papers/the-bayes-net-toolbox-for-matlab-3839yjxjt1"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/bnt.pdf"
   },
   {
     "year": 2001,
@@ -1311,7 +1311,7 @@ window.PUBLICATIONS = [
     "title": "An introduction to graphical models",
     "authors": "Kevin Murphy. May 2001.",
     "venue": "",
-    "url": "https://www.semanticscholar.org/paper/5a3ed2f82037654f6df659f8bcd23cb09305d453"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/intro_gm.pdf"
   },
   {
     "year": 2001,
@@ -1319,7 +1319,7 @@ window.PUBLICATIONS = [
     "title": "Active learning of causal Bayes net structure",
     "authors": "Kevin Murphy. March 2001.",
     "venue": "",
-    "url": "https://www.semanticscholar.org/paper/13c2ad5c1dc96f651b2bc197089f62b0691fa622"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/alearn.pdf"
   },
   {
     "year": 2000,
@@ -1335,7 +1335,7 @@ window.PUBLICATIONS = [
     "title": "A Survey of POMDP Solution Techniques",
     "authors": "Kevin Murphy. September 2000.",
     "venue": "",
-    "url": "https://www.semanticscholar.org/paper/5e72b7d7940125019a2aa985cfdff2761b7fe820"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/pomdp.pdf"
   },
   {
     "year": 2000,
@@ -1351,7 +1351,7 @@ window.PUBLICATIONS = [
     "title": "MCMC for Conditionally Linear Gaussian State-Space Models",
     "authors": "Kevin Murphy. 2000.",
     "venue": "",
-    "url": "https://www.researchgate.net/publication/2239058_MCMC_for_Conditionally_Linear_Gaussian_State-Space_Models"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/carter.ps.gz"
   },
   {
     "year": 1999,
