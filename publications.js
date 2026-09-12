@@ -84,9 +84,9 @@ window.PUBLICATIONS = [
   {
     "year": 2025,
     "peer": true,
-    "title": "\"Distributional Diffusion Models with Scoring Rules\"",
-    "authors": ".",
-    "venue": "Valentin De Bortoli, Alexandre Galashov, J. Swaroop Guntupalli, Guangyao Zhou, Kevin Murphy, Arthur Gretton, Arnaud Doucet.",
+    "title": "Distributional Diffusion Models with Scoring Rules",
+    "authors": "Valentin De Bortoli, Alexandre Galashov, J. Swaroop Guntupalli, Guangyao Zhou, Kevin Murphy, Arthur Gretton, Arnaud Doucet",
+    "venue": "ICML'25",
     "url": "https://arxiv.org/abs/2502.02483"
   },
   {
@@ -108,8 +108,8 @@ window.PUBLICATIONS = [
   {
     "year": 2025,
     "peer": true,
-    "title": "\"Dynamax: A Python package for probabilistic state space modeling with {JAX}\"",
-    "authors": "Linderman, Scott W and Chang, Peter and Harper-Donnelly, Giles and Kara, Aleyna and Li, Xinglong and Duran-Martin, Gerardo and Murphy, Kevin.",
+    "title": "Dynamax: A Python package for probabilistic state space modeling with JAX",
+    "authors": "Scott W. Linderman, Peter Chang, Giles Harper-Donnelly, Aleyna Kara, Xinglong Li, Gerardo Duran-Martin, Kevin Murphy",
     "venue": "J. Open Source Software.",
     "url": "https://joss.theoj.org/papers/10.21105/joss.07069"
   },
@@ -165,7 +165,7 @@ window.PUBLICATIONS = [
     "year": 2024,
     "peer": true,
     "title": "EM Distillation for One-step Diffusion Models",
-    "authors": "Sirui Xie, Zhisheng Xiao, Kevin Murphy, Tim Salimans, BenPoole, Ruiqi Gao",
+    "authors": "Sirui Xie, Zhisheng Xiao, Kevin Murphy, Tim Salimans, Ben Poole, Ruiqi Gao",
     "venue": "NeurIPS",
     "url": "https://arxiv.org/abs/2405.16852"
   },
@@ -197,7 +197,7 @@ window.PUBLICATIONS = [
     "year": 2024,
     "peer": true,
     "title": "Outlier-robust Kalman Filtering through Generalised Bayes",
-    "authors": "Gerardo Duran-Martin,Matias Altamirano, Alexander Y. Shestopaloff, Leandro Sanchez-Betancourt, Jeremias Knoblauch, Matt Jones, Francois-Xavier Briol, Kevin Murphy",
+    "authors": "Gerardo Duran-Martin, Matias Altamirano, Alexander Y. Shestopaloff, Leandro Sanchez-Betancourt, Jeremias Knoblauch, Matt Jones, Francois-Xavier Briol, Kevin Murphy",
     "venue": "ICML",
     "url": "https://arxiv.org/abs/2405.05646"
   },
@@ -205,15 +205,15 @@ window.PUBLICATIONS = [
     "year": 2024,
     "peer": true,
     "title": "Model-based Policy Optimization under Approximate Bayesian Inference",
-    "authors": "(Oral)",
-    "venue": "Chaoqi Wang , Yuxin Chen, Kevin Murphy.",
+    "authors": "Chaoqi Wang, Yuxin Chen, Kevin Murphy",
+    "venue": "AISTATS 2024 (Oral).",
     "url": "https://proceedings.mlr.press/v238/wang24g.html"
   },
   {
     "year": 2024,
     "peer": true,
     "title": "Don't Be Pessimistic Too Early: Look K Steps Ahead!",
-    "authors": "Chaoqi Wang , Yuxin Chen, Kevin Murphy.",
+    "authors": "Chaoqi Wang, Yuxin Chen, Kevin Murphy",
     "venue": "AISTATS",
     "url": "https://proceedings.mlr.press/v238/wang24h.html"
   },
@@ -308,9 +308,9 @@ window.PUBLICATIONS = [
   {
     "year": 2022,
     "peer": true,
-    "title": "Efficient Online Bayesian Inference for Neural Bandits Gerardo Duran-Martin, Aleyna Kara, Kevin Murphy AISTATS 2022. Code",
-    "authors": "",
-    "venue": "",
+    "title": "Efficient Online Bayesian Inference for Neural Bandits",
+    "authors": "Gerardo Duran-Martin, Aleyna Kara, Kevin Murphy",
+    "venue": "AISTATS 2022.",
     "url": "https://arxiv.org/abs/2112.00195"
   },
   {
@@ -334,7 +334,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Risk score learning for COVID-19 contact tracing apps",
     "authors": "Kevin Murphy, Abhishek Kumar, Stelios Serghiou",
-    "venue": "Machine Learning for Health Care , 2021.",
+    "venue": "Machine Learning for Health Care, 2021.",
     "url": "https://proceedings.mlr.press/v149/murphy21a/murphy21a.pdf"
   },
   {
@@ -365,9 +365,9 @@ window.PUBLICATIONS = [
     "year": 2020,
     "peer": true,
     "title": "Amortized Bayesian Optimization over Discrete Spaces",
-    "authors": "Yulia Rubanova, Davdid Dohan, Kevin Swersky, Kevin Murphy",
+    "authors": "Kevin Swersky, Yulia Rubanova, David Dohan, Kevin Murphy",
     "venue": "UAI 2020",
-    "url": "http://www.cs.toronto.edu/~rubanova/pdf/amortized_bayesopt.pdf"
+    "url": "https://proceedings.mlr.press/v124/swersky20a.html"
   },
   {
     "year": 2020,
@@ -415,7 +415,7 @@ window.PUBLICATIONS = [
     "title": "Biological Sequence Design using Batched Bayesian Optimization",
     "authors": "David Belanger, Suhani Vora, Zelda Mariet, Ramya Deshpande, David Dohan, Christof Angermueller, Kevin Murphy, Olivier Chapelle and Lucy Colwell",
     "venue": "NIPS19 workshop on ML for the sciences",
-    "url": "https://ml4physicalsciences.github.io/files/NeurIPS_ML4PS_2019_141.pdf"
+    "url": "https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_141.pdf"
   },
   {
     "year": 2019,
@@ -604,9 +604,9 @@ window.PUBLICATIONS = [
   {
     "year": 2017,
     "peer": true,
-    "title": "Deep Probabilistic Programming Dustin Tran, Matthew D. Hoffman, Rif A. Saurous, Eugene Brevdo, Kevin Murphy, David M. Blei ICLR'17. Tensorflow code",
-    "authors": ".",
-    "venue": "",
+    "title": "Deep Probabilistic Programming",
+    "authors": "Dustin Tran, Matthew D. Hoffman, Rif A. Saurous, Eugene Brevdo, Kevin Murphy, David M. Blei",
+    "venue": "ICLR'17.",
     "url": "https://arxiv.org/abs/1701.03757"
   },
   {
@@ -646,7 +646,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Speed/accuracy trade-offs for modern convolutional object detectors",
     "authors": "Jonathan Huang, Vivek Rathod, Chen Sun, Menglong Zhu, Anoop Korattikara, Alireza Fathi, Ian Fischer, Zbigniew Wojna, Yang Song, Sergio Guadarrama, Kevin Murphy",
-    "venue": "CVPR'17. Tensorflow code . Google Research blog post . Google Cloud ML blog post . Hacker News .",
+    "venue": "CVPR'17.",
     "url": "https://arxiv.org/abs/1611.10012"
   },
   {
@@ -710,7 +710,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Bayesian Dark Knowledge",
     "authors": "Anoop Korattikara, Vivek Rathod, Kevin Murphy, Max Welling",
-    "venue": "NIPS'15 pdf )-->",
+    "venue": "NIPS'15",
     "url": "http://arxiv.org/abs/1506.04416"
   },
   {
@@ -725,8 +725,8 @@ window.PUBLICATIONS = [
     "year": 2015,
     "peer": true,
     "title": "A Review of Relational Machine Learning for Knowledge Graphs: From Multi-Relational Link Prediction to Automated Knowledge Graph Construction",
-    "authors": "Maximilian Nickel, Kevin Murphy, Volker Tresp, Evginey Gabrilovich",
-    "venue": "Proc. IEEE, 2015 pdf )-->",
+    "authors": "Maximilian Nickel, Kevin Murphy, Volker Tresp, Evgeniy Gabrilovich",
+    "venue": "Proc. IEEE, 2015",
     "url": "http://arxiv.org/abs/1503.00759"
   },
   {
@@ -734,7 +734,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "What's Cookin'? Interpreting Cooking Videos using Text, Speech and Vision",
     "authors": "Jon Malmaud, Jonathan Huang, Vivek Rathod, Nicholas Johnston, Andrew Rabinovich, Kevin Murphy",
-    "venue": "NAACL'15 pdf )-->",
+    "venue": "NAACL'15",
     "url": "http://arxiv.org/abs/1503.01558"
   },
   {
@@ -780,7 +780,7 @@ window.PUBLICATIONS = [
   {
     "year": 2014,
     "peer": true,
-    "title": "Probabilistic models for collective entity resoluion between knowledge graphs",
+    "title": "Probabilistic models for collective entity resolution between knowledge graphs",
     "authors": "Jay Pujara, Kevin Murphy, Luna Dong, Curtis Janssen",
     "venue": "Bay Area Machine Learning workshop 2014",
     "url": "https://www.isi.edu/results/publications/18552/probabilistic-models-for-collective-entity-resolution-between-knowledge-graphs/"
@@ -798,7 +798,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Large-Scale Object Classification using Label Relation Graphs",
     "authors": "Jia Deng, Nan Ding, Yangqing Jia, Andrea Frome, Kevin Murphy, Samy Bengio, Yuan Li, Hartmut Neven, Hartwig Adam",
-    "venue": "ECCV 2014 ( Best paper award )",
+    "venue": "ECCV 2014 (Best Paper Award).",
     "url": "https://doi.org/10.1007/978-3-319-10590-1_4"
   },
   {
@@ -886,7 +886,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Efficient Bayesian Inference for Multivariate Probit Models with Sparse Inverse Correlation Matrices",
     "authors": "A. Talhouk and A. Doucet and K. Murphy",
-    "venue": "J. Computational and Graphical Statistics, 21(3), 2012 ( official link ).",
+    "venue": "Journal of Computational and Graphical Statistics, 21(3), 2012.",
     "url": "https://doi.org/10.1080/10618600.2012.679239"
   },
   {
@@ -933,17 +933,17 @@ window.PUBLICATIONS = [
     "year": 2010,
     "peer": true,
     "title": "Computational approaches for RNA energy parameter estimation",
-    "authors": "M. Andronescu and A. Condon and H. Hoos and K. Murphy and D. Mathews",
-    "venue": "RNA Journal, 16(12):2304-2118, 2010",
-    "url": "http://rnajournal.cshlp.org/content/early/2010/10/21/rna.1950510.abstract?papetoc"
+    "authors": "Mirela Andronescu, Anne Condon, Holger Hoos, David Mathews, Kevin Murphy",
+    "venue": "RNA Journal, 16(12):2304-2318, 2010.",
+    "url": "https://rnajournal.cshlp.org/content/16/12/2304.full"
   },
   {
     "year": 2010,
     "peer": true,
     "title": "Convex Structure Learning in Log-Linear Models: Beyond Pairwise Potentials",
-    "authors": "M. Schmidt, K. Murphy AI/Stats 2010.",
-    "venue": "",
-    "url": "http://jmlr.csail.mit.edu/proceedings/papers/v9/schmidt10a/schmidt10a.pdf"
+    "authors": "Mark Schmidt, Kevin Murphy",
+    "venue": "AISTATS 2010.",
+    "url": "https://proceedings.mlr.press/v9/schmidt10a.html"
   },
   {
     "year": 2010,
@@ -958,16 +958,16 @@ window.PUBLICATIONS = [
     "peer": false,
     "title": "Book Review of \"Probabilistic graphical models\" by Koller and Friedman",
     "authors": "Kevin Murphy",
-    "venue": "Artificial Intelligence Journal, 174(2): 145--146, 2010.",
+    "venue": "Artificial Intelligence Journal, 174(2):145-146, 2010.",
     "url": "http://dx.doi.org/10.1016/j.artint.2009.11.005"
   },
   {
     "year": 2010,
     "peer": true,
-    "title": "SNVMix: predicting single nucleotide variants from next generation sequencing of tumors",
-    "authors": "R. Goya , M. Sun , R. Morin , G. Leung , G. Ha , K. Wieg, , J. Senz , A. Crisan , M. Marra , M. Hirst , D. Huntsman , K. Murphy , S. Aparicio , S. Shah",
-    "venue": "Bioinformatics, 2010",
-    "url": "http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btq040v1"
+    "title": "SNVMix: predicting single nucleotide variants from next-generation sequencing of tumors",
+    "authors": "Rodrigo Goya, Mark G. F. Sun, Ryan D. Morin, Gillian Leung, Gavin Ha, Kimberley C. Wiegand, Janine Senz, Anamaria Crisan, Marco A. Marra, Martin Hirst, David Huntsman, Kevin P. Murphy, Sam Aparicio, Sohrab P. Shah",
+    "venue": "Bioinformatics, 26(6):730-736, 2010.",
+    "url": "https://doi.org/10.1093/bioinformatics/btq040"
   },
   {
     "year": 2010,
@@ -1020,10 +1020,10 @@ window.PUBLICATIONS = [
   {
     "year": 2009,
     "peer": true,
-    "title": "Model based clustering of array CGH data",
-    "authors": "Sohrab Shah, K-John Cheung, Nathalie Johnson, Randy Gascoyne, Douglas Horsman, Raymond Ng, Kevin Murphy.",
-    "venue": "Bioinformatics 2009, 25(12):i30-i38.",
-    "url": "http://bioinformatics.oxfordjournals.org/cgi/content/abstract/25/12/i30?etoc"
+    "title": "Model-based clustering of array CGH data",
+    "authors": "Sohrab P. Shah, K-John Cheung Jr., Nathalie A. Johnson, Guillaume Alain, Randy D. Gascoyne, Douglas E. Horsman, Raymond T. Ng, Kevin P. Murphy",
+    "venue": "Bioinformatics, 25(12):i30-i38, 2009.",
+    "url": "https://doi.org/10.1093/bioinformatics/btp205"
   },
   {
     "year": 2009,
@@ -1038,7 +1038,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "A Hybrid Conditional Random Field for estimating the underlying ground surface from airborne LiDAR data",
     "authors": "Wei-Lwun Lu, Kevin Murphy, James J. Little, Alla Sheffer, Hongbo Fu.",
-    "venue": "IEEE Trans. on Geoscience and Remote Sensing, 2009, 47(8):2913--2922.",
+    "venue": "IEEE Trans. on Geoscience and Remote Sensing, 47(8):2913-2922, 2009.",
     "url": "https://doi.org/10.1109/TGRS.2009.2017738"
   },
   {
@@ -1046,7 +1046,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Optimizing Costly Functions with Simple Constraints: A Limited-Memory Projected Quasi-Newton Algorithm",
     "authors": "Mark Schmidt, Ewout van den Berg, Michael Friedlander, Kevin Murphy",
-    "venue": "AI/Stats 2009 ( Best paper award )",
+    "venue": "AISTATS 2009 (Best Paper Award).",
     "url": "https://proceedings.mlr.press/v5/schmidt09a.html"
   },
   {
@@ -1054,7 +1054,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Structure Learning in Random Fields for Heart Motion Abnormality Detection",
     "authors": "Mark Schmidt, Kevin Murphy, Glenn Fung, Romer Rosales.",
-    "venue": "CVPR 2008. Appendix . Software .",
+    "venue": "CVPR 2008.",
     "url": "https://doi.org/10.1109/CVPR.2008.4587367"
   },
   {
@@ -1062,15 +1062,15 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "LabelMe: a database and web-based tool for image annotation",
     "authors": "Bryan Russell, Antonio Torralba, Kevin Murphy and William Freeman",
-    "venue": "Intl. J. Computer Vision (special issue on vision and learning), 77(1-3): 157--173, 2008. Software .",
+    "venue": "Intl. J. Computer Vision (special issue on vision and learning), 77(1-3):157-173, 2008.",
     "url": "https://doi.org/10.1007/s11263-007-0090-8"
   },
   {
     "year": 2007,
     "peer": false,
     "title": "Software for graphical models: a review",
-    "authors": ".",
-    "venue": "Kevin Murphy.",
+    "authors": "Kevin Murphy",
+    "venue": "ISBA Bulletin, 14(4):13-15, December 2007.",
     "url": "https://bayesian.org/wp-content/uploads/2016/09/0712.pdf"
   },
   {
@@ -1078,7 +1078,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Bayesian structure learning using dynamic programming and MCMC",
     "authors": "Daniel Eaton and Kevin Murphy",
-    "venue": "UAI 2007. Software",
+    "venue": "UAI 2007.",
     "url": "https://arxiv.org/abs/1206.5247"
   },
   {
@@ -1094,7 +1094,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Learning Graphical Model Structure using L1-Regularization Paths",
     "authors": "M Schmidt, A Niculescu-Mizil, K Murphy.",
-    "venue": "AAAI'07. Software",
+    "venue": "AAAI'07.",
     "url": "https://cdn.aaai.org/AAAI/2007/AAAI07-202.pdf"
   },
   {
@@ -1110,7 +1110,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Modeling recurrent DNA copy number alterations in array CGH data",
     "authors": "S Shah, W Lam, R Ng, K Murphy.",
-    "venue": "Bioinformatics 2007. Software .",
+    "venue": "Bioinformatics 2007.",
     "url": "https://doi.org/10.1093/bioinformatics/btm221"
   },
   {
@@ -1118,7 +1118,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Exact Bayesian structure learning from uncertain interventions",
     "authors": "Daniel Eaton and Kevin Murphy.",
-    "venue": "AI & Statistics, 2007. Software",
+    "venue": "AISTATS 2007.",
     "url": "https://proceedings.mlr.press/v2/eaton07a.html"
   },
   {
@@ -1157,16 +1157,16 @@ window.PUBLICATIONS = [
     "year": 2006,
     "peer": true,
     "title": "Integrating copy number polymorphisms into array CGH analysis using a robust HMM",
-    "authors": "S Shah, X Xuang, R DeLeeuw, M Khojasteh, W Lam, R Ng, K Murphy",
-    "venue": "Bioinformatics, 22(14):e431-e439, July 2006. Software .",
-    "url": "http://bioinformatics.oxfordjournals.org/cgi/reprint/22/14/e431?ijkey=TvD33bFhDVJysUm&keytype=ref"
+    "authors": "Sohrab P. Shah, Xiang Xuan, Ron J. DeLeeuw, Mehrnoush Khojasteh, Wan L. Lam, Raymond T. Ng, Kevin P. Murphy",
+    "venue": "Bioinformatics, 22(14):e431-e439, July 2006.",
+    "url": "https://doi.org/10.1093/bioinformatics/btl238"
   },
   {
     "year": 2006,
     "peer": true,
     "title": "Accelerated Training of Conditional Random Fields with Stochastic Meta-Descent",
     "authors": "S Vishwanathan, N. Schraudolph, M. Schmidt, K. Murphy",
-    "venue": "ICML'06 (Intl Conf on Machine Learning) Software .",
+    "venue": "ICML'06 (Intl. Conf. on Machine Learning).",
     "url": "https://doi.org/10.1145/1143844.1143966"
   },
   {
@@ -1212,7 +1212,7 @@ window.PUBLICATIONS = [
   {
     "year": 2003,
     "peer": true,
-    "title": "\"Using the Forest to See the Trees:A Graphical Model Relating Features, Objects and Scenes\"",
+    "title": "Using the Forest to See the Trees: A Graphical Model Relating Features, Objects and Scenes",
     "authors": "Kevin Murphy, Antonio Torralba, William Freeman",
     "venue": "NIPS'03 (Neural Info. Processing Systems)",
     "url": "https://proceedings.neurips.cc/paper/2003/hash/99f59c0842e83c808dd1813b48a37c6a-Abstract.html"
@@ -1238,7 +1238,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "A Coupled HMM for Audio-Visual Speech Recognition",
     "authors": "A. Nefian, L. Liang, X. Pi, L. Xiaoxiang, C. Mao and K. Murphy",
-    "venue": "ICASSP '02 (IEEE Int'l Conf on Acoustics, Speech and Signal Proc.) , 2:2013--2016.",
+    "venue": "ICASSP '02 (IEEE Int'l Conf. on Acoustics, Speech and Signal Processing), 2:2013-2016.",
     "url": "https://doi.org/10.1109/ICASSP.2002.5745027"
   },
   {
@@ -1278,7 +1278,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Linear Time Inference in Hierarchical HMMs",
     "authors": "Kevin Murphy and Mark Paskin.",
-    "venue": "NIPS '01 (Neural Info. Proc. Systems) .",
+    "venue": "NIPS '01 (Neural Info. Proc. Systems).",
     "url": "https://proceedings.neurips.cc/paper/2001/hash/aebf7782a3d445f43cf30ee2c0d84dee-Abstract.html"
   },
   {
@@ -1294,7 +1294,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "The Bayes Net Toolbox for Matlab",
     "authors": "Kevin Murphy.",
-    "venue": "Computing Science and Statistics , vol 33, 2001.",
+    "venue": "Computing Science and Statistics, vol. 33, 2001.",
     "url": "https://scispace.com/papers/the-bayes-net-toolbox-for-matlab-3839yjxjt1"
   },
   {
@@ -1358,7 +1358,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Bayesian Map Learning in Dynamic Environments",
     "authors": "Kevin Murphy.",
-    "venue": "NIPS '99 (Neural Info. Proc. Systems) .",
+    "venue": "NIPS '99 (Neural Info. Proc. Systems).",
     "url": "https://proceedings.neurips.cc/paper/1999/hash/66be31e4c40d676991f2405aaecc6934-Abstract.html"
   },
   {
