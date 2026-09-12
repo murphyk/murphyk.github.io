@@ -1247,7 +1247,7 @@ window.PUBLICATIONS = [
     "title": "Learning Markov Processes",
     "authors": "Kevin Murphy.",
     "venue": "The Encyclopedia of Cognitive Science",
-    "url": "Papers/macmillan.pdf"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/macmillan.pdf"
   },
   {
     "year": 2002,
@@ -1255,7 +1255,7 @@ window.PUBLICATIONS = [
     "title": "Hidden semi-Markov models (segment models)",
     "authors": "Kevin Murphy. November 2002.",
     "venue": "",
-    "url": "Papers/segment.pdf"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/segment.pdf"
   },
   {
     "year": 2002,
@@ -1263,7 +1263,7 @@ window.PUBLICATIONS = [
     "title": "Dynamic Bayesian Networks.",
     "authors": "Kevin Murphy. November 2002.",
     "venue": "",
-    "url": "Papers/dbnchapter.pdf"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/dbnchapter.pdf"
   },
   {
     "year": 2002,
@@ -1271,7 +1271,7 @@ window.PUBLICATIONS = [
     "title": "Pearl's algorithm for vector Gaussian Bayes Nets",
     "authors": "Kevin Murphy. March 2002.",
     "venue": "",
-    "url": "Papers/gausspearl.pdf"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/gausspearl.pdf"
   },
   {
     "year": 2001,
@@ -1343,7 +1343,7 @@ window.PUBLICATIONS = [
     "title": "Modeling Freeway Traffic using Coupled HMMs",
     "authors": "Jaimyoung Kwon and Kevin Murphy. May 2000.",
     "venue": "",
-    "url": "Papers/traffic.ps.gz"
+    "url": "https://www.cs.ubc.ca/~murphyk/Papers/traffic.ps.gz"
   },
   {
     "year": 2000,
