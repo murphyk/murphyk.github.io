@@ -1,8 +1,10 @@
 // Kevin Murphy publications. To add a paper, add an object at the top.
 // peer: true = peer-reviewed. Edit freely.
 //
-// Optional "links": an array of related artefacts (video, code, slides, blog, ...),
-// each { "label": "...", "url": "..." }. They render after the venue as small links.
+// "venue" links to "url". For multiple publication versions, omit "venue" and
+// list each version in "links", in the desired display order (primary first).
+// Optional "links" can also include related artefacts (video, code, slides, ...),
+// each { "label": "...", "url": "..." }. They render after "venue", if present.
 //   "links": [ { "label": "video", "url": "https://youtu.be/..." },
 //              { "label": "code",  "url": "https://github.com/..." } ]
 window.PUBLICATIONS = [
@@ -11,7 +13,7 @@ window.PUBLICATIONS = [
     "peer": false,
     "title": "Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models",
     "authors": "Kevin Murphy",
-    "venue": "arxiv'26",
+    "venue": "arxiv 2026",
     "url": "https://arxiv.org/abs/2608.09696",
     "links": [
       { "label": "video", "url": "https://youtu.be/k5nzJ9Az5Tk" }
@@ -22,7 +24,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Agentic Forecasting using Sequential Bayesian Updating of Linguistic Beliefs",
     "authors": "Kevin Murphy",
-    "venue": "ICML'26 forecasting workshop",
+    "venue": "ICML 2026 forecasting workshop",
     "url": "https://arxiv.org/abs/2604.18576"
   },
   {
@@ -30,7 +32,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "From Generalist to Specialist Representation",
     "authors": "Yujia Zheng, Fan Feng, Yuke Li, Shaoan Xie, Kevin Patrick Murphy, Kun Zhang",
-    "venue": "ICML26",
+    "venue": "ICML 2026",
     "url": "https://openreview.net/forum?id=zEg7sA2VBv"
   },
   {
@@ -38,31 +40,34 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Learning Task-Sufficient World Models by Synergizing Agentic Exploration and Structured Modeling",
     "authors": "Fan Feng, Yujia Zheng, Minghao Fu, Yongqiang Chen, Guangyi Chen, Kevin Patrick Murphy, Biwei Huang, Kun Zhang",
-    "venue": "ICML26",
+    "venue": "ICML 2026",
     "url": "https://openreview.net/forum?id=PxpGOLlo02"
   },
   {
     "year": 2026,
     "peer": true,
-    "title": "Self-Improving World Models via Asymmetric Forward-Inverse Consistency",
+    "title": "World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry",
     "authors": "Yuejiang Liu, Lingjing Kong, Fan Feng, Weifeng Lu, Jinzhou Tang, XiangCheng Zhang, Kun Zhang, Kevin Murphy, Yilun Du, Chelsea Finn",
-    "venue": "ICLR'26 Workshop on Recursive Self Improvement",
-    "url": "https://openreview.net/forum?id=ajcjip0yFR"
+    "url": "https://openreview.net/forum?id=tWNWfy455E",
+    "links": [
+      { "label": "NeurIPS 2026", "url": "https://openreview.net/forum?id=tWNWfy455E" },
+      { "label": "Earlier version in ICLR 2026 Workshop on Recursive Self Improvement", "url": "https://openreview.net/forum?id=ajcjip0yFR" }
+    ]
   },
   {
     "year": 2026,
     "peer": true,
     "title": "AutoHarness: improving LLM agents by automatically synthesizing a code harness",
     "authors": "Xinghua Lou, Miguel Lazaro-Gredilla, Antoine Dedieu, Carter Wendelken, Wolfgang Lehrach, Kevin P. Murphy",
-    "venue": "ICLR'26 Workshop on Recursive Self Improvement",
+    "venue": "ICLR 2026 Workshop on Recursive Self Improvement",
     "url": "https://openreview.net/forum?id=g9rEYVNn5T"
   },
   {
     "year": 2026,
-    "peer": false,
+    "peer": true,
     "title": "Joint Learning of Hierarchical Neural Options and Abstract World Model",
     "authors": "Wasu Top Piriyakulkij, Wolfgang Lehrach, Kevin Ellis, Kevin Murphy",
-    "venue": "Arxiv'26.",
+    "venue": "NeurIPS 2026",
     "url": "https://arxiv.org/abs/2602.02799"
   },
   {
@@ -70,7 +75,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Code World Models for General Game Playing",
     "authors": "Wolfgang Lehrach, Daniel Hennes, Miguel Lazaro-Gredilla, Xinghua Lou, Carter Wendelken, Zun Li, Antoine Dedieu, Jordi Grau-Moya, Marc Lanctot, Atil Iscen, John Schultz, Marcus Chiam, Ian Gemp, Piotr Zielinski, Satinder Singh, Kevin P. Murphy",
-    "venue": "ICLR'26",
+    "venue": "ICLR 2026",
     "url": "https://arxiv.org/abs/2510.04542"
   },
   {
@@ -86,7 +91,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Distributional Diffusion Models with Scoring Rules",
     "authors": "Valentin De Bortoli, Alexandre Galashov, J. Swaroop Guntupalli, Guangyao Zhou, Kevin Murphy, Arthur Gretton, Arnaud Doucet",
-    "venue": "ICML'25",
+    "venue": "ICML 2025",
     "url": "https://arxiv.org/abs/2502.02483"
   },
   {
@@ -94,7 +99,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Towards a Mechanistic Explanation of Diffusion Model Generalization",
     "authors": "Matthew Niedoba, Berend Zwartsenberg, Kevin Murphy, Frank Wood",
-    "venue": "ICML'25",
+    "venue": "ICML 2025",
     "url": "https://arxiv.org/abs/2411.19339"
   },
   {
@@ -102,7 +107,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Direct Motion Models for Assessing Generated Videos",
     "authors": "Kelsey R Allen, Carl Doersch, Guangyao Zhou, Mohammed Suhail, Danny Driess, Ignacio Rocco, Yulia Rubanova, Thomas Kipf, Mehdi S. M. Sajjadi, Kevin Patrick Murphy, Joao Carreira, Sjoerd van Steenkiste",
-    "venue": "ICML'25",
+    "venue": "ICML 2025",
     "url": "https://trajan-paper.github.io/"
   },
   {
@@ -110,7 +115,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Dynamax: A Python package for probabilistic state space modeling with JAX",
     "authors": "Scott W. Linderman, Peter Chang, Giles Harper-Donnelly, Aleyna Kara, Xinglong Li, Gerardo Duran-Martin, Kevin Murphy",
-    "venue": "J. Open Source Software.",
+    "venue": "J. Open Source Software 2025.",
     "url": "https://joss.theoj.org/papers/10.21105/joss.07069"
   },
   {
@@ -118,7 +123,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "BONE: a unifying framework for Bayesian online learning in non-stationary environments",
     "authors": "Gerardo Duran-Martin, Leandro Sánchez-Betancourt, Alexander Y. Shestopaloff, Kevin Murphy",
-    "venue": "TMLR'25",
+    "venue": "TMLR 2025",
     "url": "https://arxiv.org/abs/2411.10153"
   },
   {
@@ -126,7 +131,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Diffusion Model Predictive Control",
     "authors": "Guangyao Zhou, Sivaramakrishnan Swaminathan, Rajkumar Vasudeva Raju, J. Swaroop Guntupalli, Wolfgang Lehrach, Joseph Ortiz, Antoine Dedieu, Miguel Lázaro-Gredilla, Kevin Murphy",
-    "venue": "TMLR'25 (and ICLR'25 workshop on \"Generative Models for Robot Learning\")",
+    "venue": "TMLR 2025 (and ICLR 2025 workshop on \"Generative Models for Robot Learning\")",
     "url": "https://arxiv.org/abs/2410.05364"
   },
   {
@@ -134,7 +139,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Improving Transformer World Models for Data-Efficient RL",
     "authors": "Dedieu A, Ortiz J, Lou X, Wendelken C, Lehrach W, Guntupalli S, Lazaro-Gredilla M, Murphy K",
-    "venue": "ICML'25 (and ICLR'25 workshop on World Models)",
+    "venue": "ICML 2025 (and ICLR 2025 workshop on World Models)",
     "url": "https://arxiv.org/abs/2502.01591"
   },
   {
@@ -142,7 +147,7 @@ window.PUBLICATIONS = [
     "peer": false,
     "title": "Reinforcement learning: an overview",
     "authors": "Kevin Murphy",
-    "venue": "arxiv",
+    "venue": "arxiv 2024",
     "url": "https://arxiv.org/abs/2412.05265"
   },
   {
@@ -158,7 +163,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "DMC-VB: A Benchmark for Representation Learning for Control with Visual Distractors",
     "authors": "Joseph Ortiz, Antoine Dedieu, Wolfgang Lehrach, J Swaroop Guntupalli, Carter Wendelken, Ahmad Humayun, Sivaramakrishnan Swaminathan, Guangyao Zhou, Miguel Lazaro-Gredilla, Kevin Patrick Murphy",
-    "venue": "NeurIPS",
+    "venue": "NeurIPS 2024",
     "url": "https://arxiv.org/abs/2409.18330"
   },
   {
@@ -166,7 +171,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "EM Distillation for One-step Diffusion Models",
     "authors": "Sirui Xie, Zhisheng Xiao, Kevin Murphy, Tim Salimans, Ben Poole, Ruiqi Gao",
-    "venue": "NeurIPS",
+    "venue": "NeurIPS 2024",
     "url": "https://arxiv.org/abs/2405.16852"
   },
   {
@@ -174,7 +179,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "What type of inference is planning?",
     "authors": "Miguel Lazaro-Gredilla, Li Yang Ku, Kevin P. Murphy, Dileep George",
-    "venue": "NeurIPS",
+    "venue": "NeurIPS 2024",
     "url": "https://www.arxiv.org/abs/2406.17863"
   },
   {
@@ -182,7 +187,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Bayesian Online Natural gradient",
     "authors": "Matt Jones, Peter Chang, Kevin Murphy.",
-    "venue": "NeurIPS",
+    "venue": "NeurIPS 2024",
     "url": "https://arxiv.org/abs/2405.19681"
   },
   {
@@ -190,7 +195,7 @@ window.PUBLICATIONS = [
     "peer": false,
     "title": "Model Predictive Simulation Using Structured Graphical Models and Transformers",
     "authors": "Xinghua Lou, Meet Dave, Shrinu Kushagra, Miguel Lazaro-Gredilla, Kevin Murphy",
-    "venue": "CVPR Workshop on Autonomous Driving",
+    "venue": "CVPR Workshop on Autonomous Driving 2024",
     "url": "https://arxiv.org/abs/2406.19635"
   },
   {
@@ -198,7 +203,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Outlier-robust Kalman Filtering through Generalised Bayes",
     "authors": "Gerardo Duran-Martin, Matias Altamirano, Alexander Y. Shestopaloff, Leandro Sanchez-Betancourt, Jeremias Knoblauch, Matt Jones, Francois-Xavier Briol, Kevin Murphy",
-    "venue": "ICML",
+    "venue": "ICML 2024",
     "url": "https://arxiv.org/abs/2405.05646"
   },
   {
@@ -214,7 +219,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Don't Be Pessimistic Too Early: Look K Steps Ahead!",
     "authors": "Chaoqi Wang, Yuxin Chen, Kevin Murphy",
-    "venue": "AISTATS",
+    "venue": "AISTATS 2024",
     "url": "https://proceedings.mlr.press/v238/wang24h.html"
   },
   {
@@ -222,7 +227,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Beyond Invariance: Test-Time Label-Shift Adaptation for Distributions with \"Spurious\" Correlations",
     "authors": "Qingyao Sun, Kevin Murphy, Sayna Ebrahimi, Alexander D'Amour",
-    "venue": "NeurIPS'23.",
+    "venue": "NeurIPS 2023.",
     "url": "https://arxiv.org/abs/2211.15646"
   },
   {
@@ -230,7 +235,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs",
     "authors": "Lijun Yu, Yong Cheng, Zhiruo Wang, Vivek Kumar, Wolfgang Macherey, Yanping Huang, David A. Ross, Irfan Essa, Yonatan Bisk, Ming-Hsuan Yang, Kevin Murphy, Alexander G. Hauptmann, Lu Jiang",
-    "venue": "NeurIPS'23.",
+    "venue": "NeurIPS 2023.",
     "url": "https://arxiv.org/abs/2306.17842"
   },
   {
@@ -238,7 +243,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Model-based Policy Optimization under Approximate Bayesian Inference",
     "authors": "Chaoqi Wang, Yuxin Chen, Kevin Patrick Murphy",
-    "venue": "ICML Workshop on Learning, Control, and Dynamical Systems",
+    "venue": "ICML Workshop on Learning, Control, and Dynamical Systems 2023",
     "url": "https://openreview.net/forum?id=5sg0Uv5H0X"
   },
   {
@@ -246,7 +251,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "LoFi: Low-rank Bayesian filtering for online learning of neural networks",
     "authors": "Peter Chang, Gerardo Duran-Martin, Alex Shestopaloff, Matt Jones, Kevin Murphy",
-    "venue": "CoLLAs (Second Conference on Lifelong Learning Agents)",
+    "venue": "CoLLAs (Second Conference on Lifelong Learning Agents) 2023",
     "url": "https://arxiv.org/abs/2305.19535"
   },
   {
@@ -254,7 +259,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Muse: Text-To-Image Generation via Masked Generative Transformers",
     "authors": "Huiwen Chang, Han Zhang, Jarred Barber, AJ Maschinot, Jose Lezama, Lu Jiang, Ming-Hsuan Yang, Kevin Murphy, William T. Freeman, Michael Rubinstein, Yuanzhen Li, Dilip Krishnan",
-    "venue": "ICML",
+    "venue": "ICML 2023",
     "url": "https://arxiv.org/abs/2301.00704"
   },
   {
@@ -262,7 +267,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "On diagonal approximations to the extended Kalman filter for online training of Bayesian neural networks",
     "authors": "Peter Chang, Kevin Murphy, Matt Jones.",
-    "venue": "ACML Workshop on Continual Lifelong Learning.",
+    "venue": "ACML Workshop on Continual Lifelong Learning 2022.",
     "url": "https://openreview.net/forum?id=asgeEt25kk"
   },
   {
@@ -270,7 +275,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Uncertainty Disentanglement with Non-stationary Heteroscedastic Gaussian Processes for Active Learning",
     "authors": "Zeel B Patel, Nipun Batra, Kevin Murphy",
-    "venue": "NeurIPS Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems",
+    "venue": "NeurIPS Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems 2022",
     "url": "https://arxiv.org/abs/2210.10964"
   },
   {
@@ -278,7 +283,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Reliability benchmarks for image segmentation",
     "authors": "E. Kelly Buchanan, Michael W Dusenberry, Jie Ren, Kevin Patrick Murphy, Balaji Lakshminarayanan, Dustin Tran",
-    "venue": "NeurIPS Workshop on Distribution Shift",
+    "venue": "NeurIPS Workshop on Distribution Shift 2022",
     "url": "https://openreview.net/forum?id=T6QZmBPlfv6"
   },
   {
@@ -286,7 +291,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Language Model Cascades",
     "authors": "David Dohan, Aitor Lewkowycz, Jacob Austin, Winnie Xu, Yuhuai Wu, David Bieber, Raphael Gontijo-Lopes, Henryk Michalewski, Rif A. Saurous, Jascha Sohl-Dickstein, Kevin Patrick Murphy, Charles Sutton",
-    "venue": "ICML'22 Workshop on Beyond Bayes",
+    "venue": "ICML 2022 Workshop on Beyond Bayes",
     "url": "https://arxiv.org/abs/2207.10342"
   },
   {
@@ -294,7 +299,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Plex: Towards Reliability using Pretrained Large Model Extensions",
     "authors": "Dustin Tran, Andreas Kirsch, Balaji Lakshminarayanan, Huiyi Hu, Du Phan, D. Sculley, Jasper Snoek, Jeremiah Zhe Liu, Jie Ren, Joost van Amersfoort, Kehang Han, E. Kelly Buchanan, Kevin Murphy, Mark Collier, Michael W Dusenberry, Neil Band, Nithum Thain, Rodolphe Jenatton, Tim G. J. Rudner, Yarin Gal, Zachary Nado, Zelda E Mariet, Zi Wang, Zoubin Ghahramani",
-    "venue": "ICML'22 Workshop on Pre-Training",
+    "venue": "ICML 2022 Workshop on Pre-Training",
     "url": "https://arxiv.org/abs/2207.07411"
   },
   {
@@ -302,7 +307,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "COVID-19 Open-Data: A global-scale spatially granular meta-dataset for coronavirus disease",
     "authors": "Oscar Wahltinez, Aurora Cheung, Ruth Alcantara, Donny Cheung, Paula Le, Anthony Erlinger, Ofir Picazo Navarro, Mayank Daswani, Matt Lee, Kevin Murphy, and Michael Brenner",
-    "venue": "Nature Scientific Data",
+    "venue": "Nature Scientific Data 2022",
     "url": "https://www.nature.com/articles/s41597-022-01263-z.epdf"
   },
   {
@@ -414,7 +419,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Biological Sequence Design using Batched Bayesian Optimization",
     "authors": "David Belanger, Suhani Vora, Zelda Mariet, Ramya Deshpande, David Dohan, Christof Angermueller, Kevin Murphy, Olivier Chapelle and Lucy Colwell",
-    "venue": "NIPS19 workshop on ML for the sciences",
+    "venue": "NIPS 2019 workshop on ML for the sciences",
     "url": "https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_141.pdf"
   },
   {
@@ -422,7 +427,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Probing Uncertainty Estimates of Neural Processes",
     "authors": "Aditya Grover, Dustin Tran, Rui Shu, Ben Poole and Kevin Murphy",
-    "venue": "NIPS19 Bayesian deep learning workshop.",
+    "venue": "NIPS 2019 Bayesian deep learning workshop.",
     "url": "http://bayesiandeeplearning.org/2019/papers/125.pdf"
   },
   {
@@ -438,7 +443,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Language as an Abstraction for Hierarchical Deep Reinforcement Learning",
     "authors": "Yiding Jiang, Shixiang Gu, Kevin Murphy, Chelsea Finn",
-    "venue": "NIPS'19",
+    "venue": "NIPS 2019",
     "url": "https://arxiv.org/abs/1906.07343"
   },
   {
@@ -446,7 +451,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Unsupervised Learning of Object Structure and Dynamics from Videos",
     "authors": "Matthias Minderer, Chen Sun, Ruben Villegas, Forrester Cole, Kevin Murphy, Honglak Lee",
-    "venue": "NIPS'19",
+    "venue": "NIPS 2019",
     "url": "https://arxiv.org/abs/1906.07889"
   },
   {
@@ -454,7 +459,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Floors are Flat: Leveraging Semantics for Real-Time Surface Normal Prediction",
     "authors": "Steven Hickson, Karthik Raveendran, Alireza Fathi, Kevin Murphy, Irfan Essa",
-    "venue": "ICCV'19 workshop on \"Geometry meets Deep Learning\"",
+    "venue": "ICCV 2019 workshop on \"Geometry meets Deep Learning\"",
     "url": "https://arxiv.org/abs/1906.06792"
   },
   {
@@ -462,7 +467,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "VideoBERT: A Joint Model for Video and Language Representation Learning",
     "authors": "Chen Sun, Austin Myers, Carl Vondrick, Kevin Murphy, Cordelia Schmid",
-    "venue": "ICCV'19",
+    "venue": "ICCV 2019",
     "url": "https://arxiv.org/abs/1904.01766"
   },
   {
@@ -470,7 +475,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "NAS-Bench-101: Towards Reproducible Neural Architecture Search",
     "authors": "Chris Ying, Aaron Klein, Esteban Real, Eric Christiansen, Kevin Murphy, Frank Hutter",
-    "venue": "ICML'19.",
+    "venue": "ICML 2019.",
     "url": "https://arxiv.org/abs/1902.09635"
   },
   {
@@ -478,7 +483,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Diverse Generation for Multi-agent Sports Games",
     "authors": "Raymond A. Yeh, Jonathan Huang, Alexander G. Schwing, Kevin Murphy",
-    "venue": "CVPR'19",
+    "venue": "CVPR 2019",
     "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Yeh_Diverse_Generation_for_Multi-Agent_Sports_Games_CVPR_2019_paper.pdf"
   },
   {
@@ -486,7 +491,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Relational Action Forecasting",
     "authors": "Chen Sun, Abhinav Shrivastava, Carl Vondrick, Rahul Sukthankar, Kevin Murphy, Cordelia Schmid",
-    "venue": "CVPR'19",
+    "venue": "CVPR 2019",
     "url": "https://arxiv.org/abs/1904.04231"
   },
   {
@@ -494,7 +499,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Predicting the Present and Future States of Multi-agent Systems from Partially-observed Visual Data",
     "authors": "Chen Sun, Per Karlsson, Jiajun Wu, Joshua B Tenenbaum, Kevin Murphy",
-    "venue": "ICLR'19",
+    "venue": "ICLR 2019",
     "url": "https://openreview.net/forum?id=r1xdH3CcKX&noteId=SJe-DEG4xE"
   },
   {
@@ -502,7 +507,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Modeling Uncertainty with Hedged Instance Embeddings",
     "authors": "Seong Joon Oh, Kevin P. Murphy, Jiyan Pan, Joseph Roth, Florian Schroff, Andrew C. Gallagher",
-    "venue": "ICLR'19",
+    "venue": "ICLR 2019",
     "url": "https://arxiv.org/abs/1810.00319"
   },
   {
@@ -510,7 +515,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Modeling Parts, Structure, and System Dynamics via Predictive Learning",
     "authors": "Zhijian Liu, Jiajun Wu, Zhenjia Xu, Chen Sun, Kevin Murphy, William T. Freeman, Joshua B. Tenenbaum",
-    "venue": "ICLR'19",
+    "venue": "ICLR 2019",
     "url": "https://openreview.net/forum?id=rJe10iC5K7&noteId=Skl4HIG-xN"
   },
   {
@@ -518,7 +523,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Towards Reproducible Neural Architecture and Hyperparameter Search",
     "authors": "Aaron Klein, Eric Christiansen, Kevin Murphy, Frank Hutter",
-    "venue": "ICML'18 Workshop on Reproducible ML",
+    "venue": "ICML 2018 Workshop on Reproducible ML",
     "url": "https://openreview.net/forum?id=rJeMCSnml7"
   },
   {
@@ -526,7 +531,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Progressive Neural Architecture Search",
     "authors": "Chenxi Liu, Barret Zoph, Jonathon Shlens, Wei Hua, Li-Jia Li, Li Fei-Fei, Alan Yuille, Jonathan Huang, Kevin Murphy",
-    "venue": "ECCV'18.",
+    "venue": "ECCV 2018.",
     "url": "https://arxiv.org/abs/1712.00559"
   },
   {
@@ -534,7 +539,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Tracking emerges by colorizing videos",
     "authors": "Carl Vondrick, Abhinav Shrivastava, Alireza Fathi, Sergio Guadarrama, Kevin Murphy",
-    "venue": "ECCV'18.",
+    "venue": "ECCV 2018.",
     "url": "https://arxiv.org/abs/1806.09594"
   },
   {
@@ -542,7 +547,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "PersonLab: Person Pose Estimation and Instance Segmentation with a Bottom-Up, Part-Based, Geometric Embedding Model",
     "authors": "George Papandreou, Tyler Zhu, Liang-Chieh Chen, Spyros Gidaris, Jonathan Tompson, Kevin Murphy",
-    "venue": "ECCV'18.",
+    "venue": "ECCV 2018.",
     "url": "https://arxiv.org/abs/1803.08225"
   },
   {
@@ -550,7 +555,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Rethinking Spatiotemporal Feature Learning For Video Understanding",
     "authors": "Saining Xie, Chen Sun, Jonathan Huang, Zhuowen Tu, Kevin Murphy.",
-    "venue": "ECCV'18.",
+    "venue": "ECCV 2018.",
     "url": "https://arxiv.org/abs/1712.04851"
   },
   {
@@ -558,7 +563,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Generative Models of Visually Grounded Imagination",
     "authors": "Ramakrishna Vedantam, Ian Fischer, Jonathan Huang, Kevin Murphy",
-    "venue": "ICLR'18.",
+    "venue": "ICLR 2018.",
     "url": "https://arxiv.org/abs/1705.10762"
   },
   {
@@ -566,7 +571,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Fixing a broken ELBO",
     "authors": "Alexander A. Alemi, Ben Poole, Ian Fischer, Joshua V. Dillon, Rif A. Saurous, Kevin Murphy",
-    "venue": "ICML'18.",
+    "venue": "ICML 2018.",
     "url": "https://arxiv.org/abs/1711.00464"
   },
   {
@@ -574,7 +579,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "XGAN: Unsupervised Image-to-Image Translation for Many-to-Many Mappings",
     "authors": "Amelie Royer, Konstantinos Bousmalis, Stephan Gouws, Fred Bertsch, Inbar Mosseri, Forrester Cole, Kevin Murphy",
-    "venue": "ICML workshop on domain adaptation for visual understanding (DAVU'18).",
+    "venue": "ICML workshop on domain adaptation for visual understanding (DAVU 2018).",
     "url": "https://arxiv.org/abs/1711.05139"
   },
   {
@@ -582,7 +587,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "PixColor: Pixel Recursive Colorization",
     "authors": "Sergio Guadarrama, Ryan Dahl, David Bieber, Mohammad Norouzi, Jonathon Shlens, Kevin Murphy",
-    "venue": "BMVC'17.",
+    "venue": "BMVC 2017.",
     "url": "https://arxiv.org/abs/1705.07208"
   },
   {
@@ -590,7 +595,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Attention-based Extraction of Structured Information from Street View Imagery",
     "authors": "Zbigniew Wojna, Alex Gorban, Dar-Shyang Lee, Kevin Murphy, Qian Yu, Yeqing Li, Julian Ibarz",
-    "venue": "ICDAR'17.",
+    "venue": "ICDAR 2017.",
     "url": "https://arxiv.org/abs/1704.03549"
   },
   {
@@ -606,7 +611,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Deep Probabilistic Programming",
     "authors": "Dustin Tran, Matthew D. Hoffman, Rif A. Saurous, Eugene Brevdo, Kevin Murphy, David M. Blei",
-    "venue": "ICLR'17.",
+    "venue": "ICLR 2017.",
     "url": "https://arxiv.org/abs/1701.03757"
   },
   {
@@ -614,7 +619,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Deep Variational Information Bottleneck",
     "authors": "Alexander A. Alemi, Ian Fischer, Joshua V. Dillon, Kevin Murphy",
-    "venue": "ICLR'17.",
+    "venue": "ICLR 2017.",
     "url": "https://arxiv.org/abs/1612.00410"
   },
   {
@@ -622,7 +627,7 @@ window.PUBLICATIONS = [
     "peer": false,
     "title": "Semantic Instance Segmentation via Deep Metric Learning",
     "authors": "Alireza Fathi, Zbigniew Wojna, Vivek Rathod, Peng Wang, Hyun Oh Song, Sergio Guadarrama, Kevin P. Murphy",
-    "venue": "Arxiv'17 .",
+    "venue": "Arxiv 2017.",
     "url": "https://arxiv.org/abs/1703.10277"
   },
   {
@@ -630,7 +635,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Context-aware Captions from Context-agnostic Supervision",
     "authors": "Ramakrishna Vedantam, Samy Bengio, Kevin Murphy, Devi Parikh, Gal Chechik",
-    "venue": "CVPR'17.",
+    "venue": "CVPR 2017.",
     "url": "https://arxiv.org/abs/1701.02870"
   },
   {
@@ -638,7 +643,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Deep Metric Learning via Facility Location",
     "authors": "Hyun Oh Song, Stefanie Jegelka, Vivek Rathod, Kevin Murphy",
-    "venue": "CVPR'17.",
+    "venue": "CVPR 2017.",
     "url": "https://arxiv.org/abs/1612.01213"
   },
   {
@@ -646,7 +651,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Speed/accuracy trade-offs for modern convolutional object detectors",
     "authors": "Jonathan Huang, Vivek Rathod, Chen Sun, Menglong Zhu, Anoop Korattikara, Alireza Fathi, Ian Fischer, Zbigniew Wojna, Yang Song, Sergio Guadarrama, Kevin Murphy",
-    "venue": "CVPR'17.",
+    "venue": "CVPR 2017.",
     "url": "https://arxiv.org/abs/1611.10012"
   },
   {
@@ -654,7 +659,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Towards Accurate Multi-person Pose Estimation in the Wild",
     "authors": "George Papandreou, Tyler Zhu, Nori Kanazawa, Alexander Toshev, Jonathan Tompson, Chris Bregler, Kevin Murphy",
-    "venue": "CVPR'17.",
+    "venue": "CVPR 2017.",
     "url": "https://arxiv.org/abs/1701.01779"
   },
   {
@@ -662,7 +667,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Optimization of image description metrics using policy gradient methods",
     "authors": "Siqi Liu, Zhenhai Zhu, Ning Ye, Sergio Guadarrama, Kevin Murphy",
-    "venue": "ICCV'17.",
+    "venue": "ICCV 2017.",
     "url": "https://arxiv.org/abs/1612.00370"
   },
   {
@@ -670,7 +675,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Generation and Comprehension of Unambiguous Object Descriptions",
     "authors": "Junhua Mao, Jonathan Huang, Alexander Toshev, Oana Camburu, Alan Yuille, Kevin Murphy",
-    "venue": "CVPR'16",
+    "venue": "CVPR 2016",
     "url": "http://arxiv.org/abs/1511.02283"
   },
   {
@@ -678,7 +683,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Detecting events and key actors in multi-person videos",
     "authors": "Vignesh Ramanathan, Jonathan Huang, Sami Abu-El-Haija, Alexander Gorban, Kevin Murphy, Li Fei-Fei.",
-    "venue": "CVPR'16",
+    "venue": "CVPR 2016",
     "url": "http://arxiv.org/abs/1511.02917"
   },
   {
@@ -686,7 +691,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Semantic Image Segmentation with Task-Specific Edge Detection Using CNNs and a Discriminatively Trained Domain Transform",
     "authors": "Liang-Chieh Chen, Jonathan T. Barron, George Papandreou, Kevin Murphy, Alan L. Yuille",
-    "venue": "CVPR'16",
+    "venue": "CVPR 2016",
     "url": "http://arxiv.org/abs/1511.03328"
   },
   {
@@ -694,7 +699,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Efficient inference in occlusion-aware generative models of images",
     "authors": "Jonathan Huang, Kevin Murphy",
-    "venue": "ICLR'16 Workshop.",
+    "venue": "ICLR 2016 Workshop.",
     "url": "http://arxiv.org/abs/1511.06362"
   },
   {
@@ -702,7 +707,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Im2Calories: towards an automated mobile vision food diary",
     "authors": "Austin Myers, Nick Johnston, Vivek Rathod, Anoop Korattikara, Alex Gorban, Nathan Silberman, Sergio Guadarrama, George Papandreou, Jonathan Huang, Kevin Murphy.",
-    "venue": "ICCV'15",
+    "venue": "ICCV 2015",
     "url": "https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Meyers_Im2Calories_Towards_an_ICCV_2015_paper.html"
   },
   {
@@ -710,7 +715,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Bayesian Dark Knowledge",
     "authors": "Anoop Korattikara, Vivek Rathod, Kevin Murphy, Max Welling",
-    "venue": "NIPS'15",
+    "venue": "NIPS 2015",
     "url": "http://arxiv.org/abs/1506.04416"
   },
   {
@@ -734,7 +739,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "What's Cookin'? Interpreting Cooking Videos using Text, Speech and Vision",
     "authors": "Jon Malmaud, Jonathan Huang, Vivek Rathod, Nicholas Johnston, Andrew Rabinovich, Kevin Murphy",
-    "venue": "NAACL'15",
+    "venue": "NAACL 2015",
     "url": "http://arxiv.org/abs/1503.01558"
   },
   {
@@ -750,7 +755,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "TimeMachine: Timeline Generation for Knowledge-Base Entities",
     "authors": "Tim Althoff, Xin Luna Dong, Kevin Murphy, Safa Alai, Van Dang, Wei Zhang",
-    "venue": "KDD'15",
+    "venue": "KDD 2015",
     "url": "http://arxiv.org/abs/1502.04662"
   },
   {
@@ -758,7 +763,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Knowledge-Based Trust: Estimating the Trustworthiness of Web Sources",
     "authors": "Xin Luna Dong, Evgeniy Gabrilovich, Kevin Murphy, Van Dang, Wilko Horn, Camillo Lugaresi, Shaohua Sun, Wei Zhang",
-    "venue": "VLDB'15.",
+    "venue": "VLDB 2015.",
     "url": "http://arxiv.org/abs/1502.03519"
   },
   {
@@ -774,7 +779,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
     "authors": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, Alan L. Yuille",
-    "venue": "ICLR'15",
+    "venue": "ICLR 2015",
     "url": "http://arxiv.org/abs/1412.7062"
   },
   {
@@ -806,7 +811,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Cooking with semantics",
     "authors": "Jon Malmaud, Earl Wagner, Nancy Chang, Kevin Murphy.",
-    "venue": "ACL'14 Semantic Parsing Workshop",
+    "venue": "ACL 2014 Semantic Parsing Workshop",
     "url": "https://aclanthology.org/W14-2407/"
   },
   {
@@ -814,7 +819,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Knowledge Vault: A Web-Scale Approach to Probabilistic Knowledge Fusion",
     "authors": "Xin Luna Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Ni Lao, Kevin Murphy, Thomas Strohmann, Shaohua Sun, Wei Zhang",
-    "venue": "KDD'14.",
+    "venue": "KDD 2014.",
     "url": "https://research.google/pubs/knowledge-vault-a-web-scale-approach-to-probabilistic-knowledge-fusion/"
   },
   {
@@ -822,7 +827,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "From Data Fusion to Knowledge Fusion",
     "authors": "Xin Luna Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Kevin Murphy, Shaohua Sun, Wei Zhang",
-    "venue": "VLDB'14.",
+    "venue": "VLDB 2014.",
     "url": "https://doi.org/10.14778/2732951.2732962"
   },
   {
@@ -830,7 +835,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Knowledge Base Completion via Search-Based Question Answering",
     "authors": "Robert West, Evgeniy Gabrilovich, Kevin Murphy, Shaohua Sun, Rahul Gupta, Dekang Lin",
-    "venue": "WWW'14.",
+    "venue": "WWW 2014.",
     "url": "https://doi.org/10.1145/2566486.2568032"
   },
   {
@@ -838,7 +843,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Extracting Entities and Relations from Web Tables Using a Non-parametric Generative Model",
     "authors": "Jon Malmaud, Kevin Murphy",
-    "venue": "Bay Area Machine Learning workshop (Extended abstract)",
+    "venue": "Bay Area Machine Learning workshop (Extended abstract) 2013",
     "url": "https://www.cs.ubc.ca/~murphyk/Papers/baylearn.pdf"
   },
   {
@@ -862,7 +867,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Learning to Track and Identify Players from Broadcast Sports Videos",
     "authors": "Wei-Lwun Lu, Joanne Ting, Jim Little, Kevin Murphy",
-    "venue": "IEEE PAMI",
+    "venue": "IEEE PAMI 2012",
     "url": "https://doi.org/10.1109/TPAMI.2012.242"
   },
   {
@@ -1094,7 +1099,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Learning Graphical Model Structure using L1-Regularization Paths",
     "authors": "M Schmidt, A Niculescu-Mizil, K Murphy.",
-    "venue": "AAAI'07.",
+    "venue": "AAAI 2007.",
     "url": "https://cdn.aaai.org/AAAI/2007/AAAI07-202.pdf"
   },
   {
@@ -1166,7 +1171,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Accelerated Training of Conditional Random Fields with Stochastic Meta-Descent",
     "authors": "S Vishwanathan, N. Schraudolph, M. Schmidt, K. Murphy",
-    "venue": "ICML'06 (Intl. Conf. on Machine Learning).",
+    "venue": "ICML 2006 (Intl. Conf. on Machine Learning).",
     "url": "https://doi.org/10.1145/1143844.1143966"
   },
   {
@@ -1174,7 +1179,7 @@ window.PUBLICATIONS = [
     "peer": false,
     "title": "Object detection and localization using local and global features",
     "authors": "Kevin Murphy, Antonio Torralba, Daniel Eaton, William Freeman",
-    "venue": "Appears in Towards Category-Level Object Recognition",
+    "venue": "Appears in Towards Category-Level Object Recognition 2005",
     "url": "https://doi.org/10.1007/11957959_20"
   },
   {
@@ -1182,7 +1187,7 @@ window.PUBLICATIONS = [
     "peer": false,
     "title": "Shared features for multiclass object detection",
     "authors": "Antonio Torralba, Kevin Murphy, William Freeman",
-    "venue": "Appears in Towards Category-Level Object Recognition",
+    "venue": "Appears in Towards Category-Level Object Recognition 2005",
     "url": "https://doi.org/10.1007/11957959_18"
   },
   {
@@ -1190,7 +1195,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Contextual Models for Object Detection using Boosted Random Fields",
     "authors": "Antonio Torralba, Kevin Murphy and William Freeman",
-    "venue": "NIPS'04.",
+    "venue": "NIPS 2004.",
     "url": "https://proceedings.neurips.cc/paper/2004/hash/908a6f6a6c131a850ecb0e3f11b08189-Abstract.html"
   },
   {
@@ -1198,7 +1203,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Sharing features: efficient boosting procedures for multiclass object detection",
     "authors": "Antonio Torralba, Kevin Murphy and William Freeman",
-    "venue": "CVPR'04 (Computer Vision and Pattern Recognition).",
+    "venue": "CVPR 2004 (Computer Vision and Pattern Recognition).",
     "url": "https://doi.org/10.1109/CVPR.2004.1315241"
   },
   {
@@ -1206,15 +1211,15 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Representing hierarchical POMDPs as DBNs for multi-scale robot localization",
     "authors": "Georgios Theocharous, Kevin Murphy, Leslie Kaelbling",
-    "venue": "ICRA'04 (Intl. Conf. on Robotics and Automation)",
-    "url": "https://doi.org/10.1109/ROBOT.2004.1307288"
+    "venue": "ICRA 2004 (Intl. Conf. on Robotics and Automation)",
+      "url": "https://people.csail.mit.edu/theochar/icra04.pdf"
   },
   {
     "year": 2003,
     "peer": true,
     "title": "Using the Forest to See the Trees: A Graphical Model Relating Features, Objects and Scenes",
     "authors": "Kevin Murphy, Antonio Torralba, William Freeman",
-    "venue": "NIPS'03 (Neural Info. Processing Systems)",
+    "venue": "NIPS 2003 (Neural Info. Processing Systems)",
     "url": "https://proceedings.neurips.cc/paper/2003/hash/99f59c0842e83c808dd1813b48a37c6a-Abstract.html"
   },
   {
@@ -1222,7 +1227,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Context-based vision system for place and object recognition",
     "authors": "Antonio Torralba, Kevin Murphy, William Freeman, Mark Rubin",
-    "venue": "ICCV'03 (Intl. Conf. on Computer Vision)",
+    "venue": "ICCV 2003 (Intl. Conf. on Computer Vision)",
     "url": "https://doi.org/10.1109/ICCV.2003.1238354"
   },
   {
@@ -1238,7 +1243,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "A Coupled HMM for Audio-Visual Speech Recognition",
     "authors": "A. Nefian, L. Liang, X. Pi, L. Xiaoxiang, C. Mao and K. Murphy",
-    "venue": "ICASSP '02 (IEEE Int'l Conf. on Acoustics, Speech and Signal Processing), 2:2013-2016.",
+    "venue": "ICASSP 2002 (IEEE Int'l Conf. on Acoustics, Speech and Signal Processing), 2:2013-2016.",
     "url": "https://doi.org/10.1109/ICASSP.2002.5745027"
   },
   {
@@ -1246,7 +1251,7 @@ window.PUBLICATIONS = [
     "peer": false,
     "title": "Learning Markov Processes",
     "authors": "Kevin Murphy.",
-    "venue": "The Encyclopedia of Cognitive Science",
+    "venue": "The Encyclopedia of Cognitive Science 2002",
     "url": "https://www.cs.ubc.ca/~murphyk/Papers/macmillan.pdf"
   },
   {
@@ -1278,7 +1283,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Linear Time Inference in Hierarchical HMMs",
     "authors": "Kevin Murphy and Mark Paskin.",
-    "venue": "NIPS '01 (Neural Info. Proc. Systems).",
+    "venue": "NIPS 2001 (Neural Info. Proc. Systems).",
     "url": "https://proceedings.neurips.cc/paper/2001/hash/aebf7782a3d445f43cf30ee2c0d84dee-Abstract.html"
   },
   {
@@ -1286,7 +1291,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "The Factored Frontier Algorithm for Approximate Inference in DBNs",
     "authors": "Kevin Murphy and Yair Weiss.",
-    "venue": "UAI '01 (Uncertainty in AI).",
+    "venue": "UAI 2001 (Uncertainty in AI).",
     "url": "https://arxiv.org/abs/1301.2296"
   },
   {
@@ -1302,7 +1307,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Rao-Blackwellised Particle Filtering for Dynamic Bayesian Networks",
     "authors": "Kevin Murphy and Stuart Russell.",
-    "venue": "Appears in Sequential Monte Carlo Methods in Practice",
+    "venue": "Appears in Sequential Monte Carlo Methods in Practice 2001",
     "url": "https://doi.org/10.1007/978-1-4757-3437-9_24"
   },
   {
@@ -1326,7 +1331,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Rao-Blackwellised Particle Filtering for Dynamic Bayesian Networks",
     "authors": "Arnaud Doucet, Nando de Freitas, Kevin Murphy and Stuart Russell.",
-    "venue": "UAI '00 (Uncertainty in AI).",
+    "venue": "UAI 2000 (Uncertainty in AI).",
     "url": "https://arxiv.org/abs/1301.3853"
   },
   {
@@ -1358,7 +1363,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Bayesian Map Learning in Dynamic Environments",
     "authors": "Kevin Murphy.",
-    "venue": "NIPS '99 (Neural Info. Proc. Systems).",
+    "venue": "NIPS 1999 (Neural Info. Proc. Systems).",
     "url": "https://proceedings.neurips.cc/paper/1999/hash/66be31e4c40d676991f2405aaecc6934-Abstract.html"
   },
   {
@@ -1366,7 +1371,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Loopy-belief Propagation for Approximate Inference: An Empirical Study",
     "authors": "Kevin Murphy, Yair Weiss, and Michael Jordan.",
-    "venue": "UAI '99 (Uncertainty in AI).",
+    "venue": "UAI 1999 (Uncertainty in AI).",
     "url": "https://arxiv.org/abs/1301.6725"
   },
   {
@@ -1374,7 +1379,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "A Variational Approximation for Bayesian Networks with Discrete and Continuous Latent Variables",
     "authors": "Kevin Murphy.",
-    "venue": "UAI '99 (Uncertainty in AI).",
+    "venue": "UAI 1999 (Uncertainty in AI).",
     "url": "https://arxiv.org/abs/1301.6724"
   },
   {
@@ -1382,7 +1387,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "A Dynamic Bayesian Network Approach to Figure Tracking Using Learned Dynamic Models",
     "authors": "Vladimir Pavlovic, James Rehg, Tat-Jen Cham, and Kevin Murphy.",
-    "venue": "ICCV '99 (Int'l Conf. on Computer Vision)",
+    "venue": "ICCV 1999 (Int'l Conf. on Computer Vision)",
     "url": "https://doi.org/10.1109/ICCV.1999.791203"
   },
   {
@@ -1390,7 +1395,7 @@ window.PUBLICATIONS = [
     "peer": true,
     "title": "Vision-Based Speaker Detection Using Bayesian Networks",
     "authors": "James Rehg, Kevin Murphy, and Paul Fieguth.",
-    "venue": "CVPR '99 (Computer Vision and Pattern Recognition).",
+    "venue": "CVPR 1999 (Computer Vision and Pattern Recognition).",
     "url": "https://doi.org/10.1109/CVPR.1999.784617"
   }
 ];

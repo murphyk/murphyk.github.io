@@ -45,6 +45,7 @@
       list = document.createElement('ul'); list.className = 'year-list'; root.appendChild(list);
     }
     var authors = esc(p.authors || '').replace(me, '<b>$1</b>');
+    var links = (p.venue ? [{ label: p.venue, url: p.url }] : []).concat(p.links || []);
     var li = document.createElement('li'); li.className = 'pub ' + (p.peer ? 'peer' : 'other');
     li.innerHTML =
       '<span class="mark ' + (p.peer ? 'peer' : 'other') + '" title="' + (p.peer ? 'peer-reviewed' : 'other') + '">'
@@ -52,11 +53,10 @@
       + '<span class="pub-body">'
       +   '<a class="title" href="' + esc(p.url) + '">' + esc(p.title) + '</a>'
       +   (authors ? '<span class="authors">' + authors + '</span>' : '')
-      +   (p.venue ? '<span class="venue">' + esc(p.venue) + '</span>' : '')
-      +   (p.links && p.links.length
-            ? '<span class="links">' + p.links.map(function (l) {
-                return '<a class="artefact" href="' + esc(l.url) + '">' + esc(l.label) + '</a>';
-              }).join('') + '</span>'
+      +   (links.length
+            ? '<span class="publication-links">' + links.map(function (l) {
+                return '<a href="' + esc(l.url) + '">' + esc(l.label) + '</a>';
+              }).join('<br>') + '</span>'
             : '')
       + '</span>';
     list.appendChild(li);

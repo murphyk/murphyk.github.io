@@ -69,9 +69,9 @@ h3.year {
 .mark.other { color: var(--faint); font-weight: 700; }
 .pub-body { min-width: 0; }
 .title { font-weight: 600; }
-.authors, .venue { display: block; font-size: .9rem; color: var(--muted); margin-top: .12rem; }
+.authors { display: block; font-size: .9rem; color: var(--muted); margin-top: .12rem; }
 .authors b { color: var(--ink); font-weight: 600; }
-.venue { font-style: italic; color: var(--faint); }
+.publication-links { display: block; font-size: .9rem; margin-top: .12rem; }
 .links { display: block; margin-top: .25rem; }
 .artefact {
   display: inline-block; margin-right: .4rem;
