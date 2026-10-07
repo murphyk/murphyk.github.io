@@ -8,6 +8,14 @@
 //   "links": [ { "label": "video", "url": "https://youtu.be/..." },
 //              { "label": "code",  "url": "https://github.com/..." } ]
 window.PUBLICATIONS = [
+  {
+    "year": 2026,
+    "peer": false,
+    "title": "Kernel Autoresearch for Open-Ended Model Discovery",
+    "authors": "Richard Cornelius Suwandi, Feng Yin, Kevin Murphy",
+    "venue": "alphaXiv 2026",
+    "url": "https://www.alphaxiv.org/abs/2610.kernel-autoresearch"
+  },
     {
     "year": 2026,
     "peer": false,
